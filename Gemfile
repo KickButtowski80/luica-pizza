@@ -54,3 +54,8 @@ gem "font-awesome-rails"
 gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
 gem "lazyload-rails"
+
+gem 'carrierwave', '~> 1.1'
+gem 'mini_magick', '~> 4.8'
+gem 'carrierwave-aws', '~> 1.2'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
