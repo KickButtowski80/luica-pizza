@@ -84,7 +84,4 @@ Rails.application.configure do
   config.assets.compile = true
   config.perform_caching = true
   
-  
- 
- 
 end
