@@ -83,5 +83,5 @@ Rails.application.configure do
   config.static_cache_control = 'public, max-age=1000'
   config.assets.compile = true
   config.perform_caching = true
-  
+  config.assets.compress = true
 end
