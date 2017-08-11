@@ -1,23 +1,14 @@
-<style>
-    .agiletopbar{
-        background: #fff;
-        width: 100%;
-        position: fixed;
-        z-index: 1001;
-    }
-</style>
-
-<div class="aitsheaderw3ls" id="agilehome">
-    <!-- Navigation -->
+<div id="menu">
+    <!-- Navigation --> 
     <div class="agiletopbar">
     	<div class="wthreenavigation">
     		<div class="menu-wrap">
     			<nav class="menu">
     				<div id = 'menu-link' class="icon-list">
-    					<a  class="scroll" href="#agilehome"><i class="fa fa-home"></i><span>Home</span></a>
-    					<a  class="scroll" href="#sl3waboutstia"><i class="fa fa-info"></i><span>About</span></a>
-    					<a  class="scroll" href="#aitscontactw3l"><i class="fa fa-phone"></i><span>Contact</span></a>
-    					
+    					<a  class="scroll" href="<%= slogan_path(anchor: 'slogan')%>"><i class="fa fa-home"></i><span>Home</span></a>
+    					<a  class="scroll" href="<%= about_path(anchor: 'about')%>"><i class="fa fa-info"></i><span>About</span></a>
+    					<a  class="scroll" href="<%=menus_path(anchor: 'foodMenu') %>"><i class="fa fa-cutlery"></i><span>Food</span></a>
+    					<a  class="scroll" href="#contact"><i class="fa fa-phone"></i><span>Contact</span></a>
     				</div> 
     			</nav>
     			<button class="close-button" id="close-button">Close Menu</button>
@@ -29,10 +20,13 @@
     		<p>MENU</p>
     	</div>
     	<div class="aitslogow3ls">
-    			<a href="index.html"><div class="agilelogo">Tout dé Cake</div></a>
+    			<a href="index.html"><div class="agilelogo">Lucia Pizza</div></a>
     	</div>
     	<div class="wthreecontact">
-    		<p><a class="scroll" href="#aitscontactw3l"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT US</a></p>
+    		<p><a class="scroll" href="#contact">
+    		    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+    		    CONTACT US</a>
+    		</p>
     	</div>
     	<div class="clearfix"></div>
     </div>

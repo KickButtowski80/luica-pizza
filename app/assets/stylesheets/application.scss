@@ -2416,6 +2416,91 @@ textarea.message {
 		margin: 5px;
 	}
 }
+/* slogan css */
+
+#agilehome {}
+
+#vid {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.col-md-12 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.overlay-desc {
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-desc h1 {
+    color: white;
+    font-family: 'Nobile', sans-serif;
+    font-size: 9vw;
+    text-align: center;
+}
+
+
+/*about css section */
+
+#about {
+    width: 100%;
+    height: 600px;
+    margin-top: 220px;
+    padding-top: 295px;
+}
+
+
+/*menu partial css*/
+
+#menu .agiletopbar {
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 1001;
+    top: 0px;
+}
+
+
+/*foot partial css*/
+
+#foodMenu {
+    width: 100%;
+    height: 500px;
+    background-image: url("/assets/pizza_home_bg.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 20px;
+    padding-top: 95px;
+}
+
+#foodMenu .col-md-6 {
+    font-size: 32px;
+}
+
+
+/*contact parital*/
+
+#contact {
+    margin-top: 20px;
+    padding-top: 95px;
+    color: black;
+    font-size: 20px;
+    opacity: .8;
+}
 
 
 

@@ -2,19 +2,25 @@
 <html>
 <head>
   <title>Workspace</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'classie.js' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true, async: true, :cache => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true, async: true, :cache => true %>
+  <%= javascript_include_tag 'classie.js', async: true , :cache => true%>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
-<body>
-
-<%= yield %>
-<%= render 'shared/menu' %>
-<%= render 'shared/slogan'%>
-<%= render 'shared/about'%>
-
+<body data-spy="scroll" data-target=".icon-list" data-offset="450">
+  
+  <%= render 'shared/menu'  %>
+  <%= render template: '/welcome/slogan'    if controller.controller_name=='welcome'%>
+  <%= render template: '/welcome/about'     if controller.controller_name=='welcome'%>
+  <%= render 'shared/food'                  if controller.controller_name=='welcome' %>
+  <%= render template: 'menus/lunch/index'  if controller.controller_name == 'lunch'%>
+  <%= render template: 'menus/dinner/index' if controller.controller_name == 'dinner'%>
+  <%= render 'shared/contact' %>
+  
+  
+  
 </body>
 </html>

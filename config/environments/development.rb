@@ -38,4 +38,16 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  config.serve_static_files = true
+  config.static_cache_control = 'public, max-age=1000'
+  config.assets.compile = true
+  config.perform_caching = true
+  
+  
+  config.action_controller.perform_caching = true
+  config.assets.css_compressor = :sass
+  
+  
+ config.assets.js_compressor = :uglifier
 end
