@@ -79,10 +79,10 @@ Rails.application.configure do
   
   
   
-  # config.serve_static_files = true
-  # config.static_cache_control = 'public, max-age=1000'
-  # config.assets.compile = true
-  # config.perform_caching = true
-  # config.assets.compress = true
+  config.serve_static_files = true
+  config.static_cache_control = 'public, max-age=1000'
+  config.assets.compile = true
+  config.perform_caching = true
+  config.assets.compress = true
   config.serve_static_assets = true
 end
