@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery3
-//= require popper
+//= require jquery_ui
+//= require turbolink
 //= require_tree .
 //= require bootstrap-sprockets 
