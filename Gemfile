@@ -53,4 +53,4 @@ gem 'config'
 gem "font-awesome-rails"
 gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
-gem "lazyload-rails"
+gem "rails_12factor"
