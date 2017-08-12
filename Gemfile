@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -17,7 +17,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-#gem 'turbolinks'
+gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -46,17 +46,11 @@ group :development do
   gem 'spring'
 end
 
-gem 'bootstrap', '~> 4.0.0.beta'
-gem 'popper_js', '~> 1.11', '>= 1.11.1'
+gem 'bootstrap', '~> 4.0.0.alpha6' 
+gem 'popper_js', '~> 1.9.9'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'config'
 gem "font-awesome-rails"
 gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
-
-
-gem 'carrierwave', '~> 1.1'
-gem 'mini_magick', '~> 4.8'
-gem 'carrierwave-aws', '~> 1.2'
-gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
-gem 'rails_12factor'
+gem "lazyload-rails"
