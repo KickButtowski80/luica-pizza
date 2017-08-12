@@ -46,7 +46,7 @@ group :development do
   gem 'spring'
 end
 
-gem 'bootstrap', '~> 4.0.0.alpha6' 
+gem 'bootstrap', '~> 4.0.0.beta'
 gem 'popper_js', '~> 1.9.9'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'config'
