@@ -47,7 +47,7 @@ group :development do
 end
 
 gem 'bootstrap', '~> 4.0.0.beta'
-gem 'popper_js', '~> 1.9.9'
+gem 'popper_js', '~> 1.11', '>= 1.11.1'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'config'
 gem "font-awesome-rails"

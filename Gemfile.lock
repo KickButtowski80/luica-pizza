@@ -43,18 +43,19 @@ GEM
     arel (6.0.4)
     autoprefixer-rails (7.1.2.4)
       execjs
-    aws-sdk (2.10.24)
-      aws-sdk-resources (= 2.10.24)
-    aws-sdk-core (2.10.24)
+    aws-sdk (2.10.25)
+      aws-sdk-resources (= 2.10.25)
+    aws-sdk-core (2.10.25)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.10.24)
-      aws-sdk-core (= 2.10.24)
+    aws-sdk-resources (2.10.25)
+      aws-sdk-core (= 2.10.25)
     aws-sigv4 (1.0.1)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bootstrap (4.0.0.alpha6)
+    bootstrap (4.0.0.beta)
       autoprefixer-rails (>= 6.0.3)
+      popper_js (~> 1.11.1)
       sass (>= 3.4.19)
     builder (3.2.3)
     byebug (9.0.6)
@@ -117,7 +118,7 @@ GEM
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     pg (0.18.4)
-    popper_js (1.9.9)
+    popper_js (1.11.1)
     puma (3.9.1)
     rack (1.6.8)
     rack-test (0.6.3)
@@ -202,7 +203,7 @@ PLATFORMS
 DEPENDENCIES
   actionpack-action_caching
   actionpack-page_caching
-  bootstrap (~> 4.0.0.alpha6)
+  bootstrap (~> 4.0.0.beta)
   byebug
   carrierwave (~> 1.1)
   carrierwave-aws (~> 1.2)
@@ -216,7 +217,7 @@ DEPENDENCIES
   lazyload-rails
   mini_magick (~> 4.8)
   pg (~> 0.18.4)
-  popper_js (~> 1.9.9)
+  popper_js (~> 1.11, >= 1.11.1)
   puma
   rails (= 4.2.5)
   rails_12factor
