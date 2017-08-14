@@ -17,3 +17,4 @@
 //= require smoothscroll
 //= require main
 //= require bootstrap-sprockets
+//= require_tree .
