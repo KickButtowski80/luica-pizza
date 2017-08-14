@@ -54,4 +54,4 @@ gem "font-awesome-rails"
 gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
 gem 'rails_12factor', group: :production
-gem 'tether-rails'
+gem "rails-assets-tether"
