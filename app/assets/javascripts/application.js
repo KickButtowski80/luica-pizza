@@ -16,5 +16,5 @@
 //= require classie
 //= require smoothscroll
 //= require main
-//= require bootstrap-sprockets
+//= require bootstrap
 //= require_tree .
