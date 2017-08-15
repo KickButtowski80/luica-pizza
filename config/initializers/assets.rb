@@ -12,6 +12,6 @@ Rails.application.config.assets.version = '1.0'
 #Rails.application.config.assets.precompile += %w( *.js)
 Rails.application.config.assets.precompile += %w( classie.js )
 Rails.application.config.assets.precompile += %w( main.js )
-Rails.application.config.assets.precompile += %w( amoothscroll.js )
+Rails.application.config.assets.precompile += %w( smoothscroll.js )
 Rails.application.config.assets.precompile += %w( workhours.js ) 
 
