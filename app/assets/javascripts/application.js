@@ -13,5 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require smoothscroll
+//= require workhours
+//= require classie
+//= require main
 //= require bootstrap-sprockets
 //= require_tree .
