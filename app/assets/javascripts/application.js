@@ -16,5 +16,5 @@
 //= require workhours
 //= require classie
 //= require main
-//= require bootstrap-sprockets
 //= require_tree .
+//= require bootstrap-sprockets
