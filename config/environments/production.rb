@@ -80,7 +80,6 @@ Rails.application.configure do
   
   # config.serve_static_assets = true rename to the below 
   config.serve_static_files = true
-  config.action_dispatch.x_sendfile_header = ‘X-Accel-Redirect’
   config.static_cache_control = 'public, max-age=1000'
   config.perform_caching = true
   config.assets.compress = true
