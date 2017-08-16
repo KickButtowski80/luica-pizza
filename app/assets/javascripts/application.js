@@ -16,6 +16,6 @@
 //= require smoothscroll
 //= require workhours
 //= require main
-//= require bootstrap-sprockets
 //= require_tree .
+//= require bootstrap-sprockets
 
