@@ -1,5 +1,5 @@
 $(document).ready( function() {
-    window.addEventListener('click', function(event) {
+    // window.addEventListener('click', function(event) {
        var $root = $('html, body');
         $('.scroll').click( function(e) {
              var target = this.hash;
@@ -13,5 +13,5 @@ $(document).ready( function() {
                  });
              }
         });
-    }, {passive: true});
+    // }, {passive: true});
  });
