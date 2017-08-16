@@ -11,7 +11,7 @@
  */
  
 $(document).ready(function(){
-
+	
 	var bodyEl = document.body,
 		content = document.querySelector( '.content-wrap' ),
 		openbtn = document.getElementById( 'open-button' ),
