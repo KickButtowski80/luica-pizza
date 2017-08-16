@@ -1,6 +1,6 @@
-$(document).ready(function(){
+$(document).ready( function() {
    var $root = $('html, body');
-    $('.scroll').click(function(e) {
+    $('.scroll').click( function(e) {
          var target = this.hash;
          var $target = $(target);
          if($target.length > 0){
