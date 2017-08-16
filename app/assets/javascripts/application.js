@@ -15,6 +15,7 @@
 //= require jquery3
 //= require smoothscroll
 //= require workhours
+//= require main
 //= require bootstrap-sprockets
 //= require_tree .
 //= require_self
