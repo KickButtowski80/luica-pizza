@@ -5,7 +5,7 @@ $(document).ready( function() {
              var target = this.hash;
              var $target = $(target);
              if($target.length > 0){
-                /* e.preventDefault(); *
+                 e.preventDefault(); 
                  $("html,body").animate({
                      'scrollTop': $target.offset().top
                  }, 1000, 'swing', function(){
