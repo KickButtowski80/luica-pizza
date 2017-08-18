@@ -316,36 +316,10 @@ ul.callbacks_tabs {
 
 
 
-/*-- Text-Selection-Background-Color --*/
+/*-- Text-Selection-Background-Color --
 
 	/*-- Works on common browsers --*/
-	::selection {
-		background-color: #1e1e1e;
-		color: #fff;
-	}
 
-	/*-- Mozilla based browsers --*/
-	::-moz-selection {
-		background-color: #1e1e1e;
-		color: #fff;
-	}
-
-	/*-- For Other Browsers --*/
-	::-o-selection {
-		background-color: #1e1e1e;
-		color: #fff;
-	}
-
-	::-ms-selection {
-		background-color: #1e1e1e;
-		color: #fff;
-	}
-
-	/*-- For Webkit --*/
-	::-webkit-selection {
-		background-color: #1e1e1e;
-		color: #fff;
-	}
 
 /*-- //Text-Selection-Background-Color --*/
 
@@ -393,49 +367,7 @@ ul.callbacks_tabs {
 		width: 175px;
 		height: 175px;
 	}
-	.sl3waboutstia, .portfolio, .chefw3agile, .aitscontactw3l {
-		padding: 75px 0;
-	}
-	.sl3waboutstia h1, .w3lsstatsaits h2, .wthreedesserts h3, .portfolio h3, .chefw3agile h3, .agileinfofeedback h3, .aitscontactw3l h3 {
-		font-size: 40px;
-		margin-bottom: 35px;
-	}
-	.sl3waboutstia-grid h3 {
-		font-size: 20px;
-		line-height: 25px;
-	}
-	.sl3waboutstia-grid-1 h3 {
-		margin-bottom: 15px;
-	}
-	.sl3waboutstia-grid-1 p {
-		font-size: 13px;
-		line-height: 27px;
-	}
-	.sl3waboutstia-grid-2 ul li {
-		padding: 20px 0 20px 100px;
-	}
-	.w3lsstatsaits, .agileinfofeedback {
-		padding: 100px 0;
-	}
-	.wthreedesserts {
-		padding-top: 75px;
-	}
-	.pic-caption {
-		padding: 5em 1em 0;
-	}
-	.agileinfofeedback p {
-		padding: 0;
-	}
-	#map {
-		height: 350px;
-	}
-	.address, .contact, .connect {
-		width: 25%;
-		float: left;
-	}
-	.connect {
-		width: 50%;
-	}
+ 
 }
 
 @media screen and (max-width: 991px) {
@@ -448,27 +380,7 @@ ul.callbacks_tabs {
 	.wthreecontact a {
 		font-size: 16px;
 	}
-	.sl3waboutstia-grid-1 {
-		padding-right: 0;
-	}
-	.agileinfofeedback p {
-		font-size: 15px;
-	}
-	.newsletter-grid {
-		padding: 0;
-	}
-	.subscribe {
-		padding-top: 8px;
-	}
-	.subscribe p {
-		font-size: 24px;
-	}
-	.aitscontactw3l-grid {
-		padding: 0 5px;
-	}
-	.footer-nav ul li {
-		padding: 0 24px;
-	}
+ 
 }
 
 @media screen and (max-width: 900px) {
@@ -494,148 +406,23 @@ ul.callbacks_tabs {
 	.agilelogo {
 		left: 40%;
 	}
-	.pic-caption {
-		padding: 4em 1em 0;
-	}
-	.email-form input.email {
-		width: 68%;
-	}
-	.footer-bottom {
-		padding-top: 30px;
-	}
-	.footer-bottom-grid {
-		width: 100%;
-		text-align: center;
-	}
-	.copyright {
-		margin-top: 30px;
-	}
+ 
 }
 
 @media screen and (max-width: 853px) {
-	.w3lsstatsaits, .agileinfofeedback {
-		padding: 80px 0;
-	}
-	.agileinfofeedback p {
-		padding: 0 15px;
-	}
-	.subscribe p {
-		font-size: 23px;
-	}
-	.email-form input.submit {
-		margin-left: 0px;
-	}
+ 
 }
 
 @media screen and (max-width: 800px) {
-	.sl3waboutstia-grid-1 {
-		padding: 0;
-	}
-	.pic-caption {
-		padding: 3em 1em 0;
-	}
-	.subscribe p {
-		font-size: 21px;
-	}
-	.email-form input.submit {
-		padding: 15px 30px 14px;
-	}
+ 
 }
 
 @media screen and (max-width: 768px) {
-	.sl3waboutstia, .portfolio, .chefw3agile, .aitscontactw3l {
-		padding: 50px 0;
-	}
-	.w3lsstatsaits, .agileinfofeedback {
-		padding: 75px 0;
-	}
-	.wthreedesserts {
-		padding-top: 50px
-	}
-	.sl3waboutstia h1, .w3lsstatsaits h2, .wthreedesserts h3, .portfolio h3, .chefw3agile h3, .agileinfofeedback h3, .aitscontactw3l h3 {
-		font-size: 35px;
-		margin-bottom: 30px;
-	}
-	.sl3waboutstia-grid-1, .sl3waboutstia-grid-2 {
-		width: 50%;
-		float: left;
-		padding: 0;
-		margin-bottom: 35px;
-		z-index: 9;
-	}
-	.sl3waboutstia-grid h3, .sl3waboutstia-grid h3 {
-		font-size: 22px;
-		margin-bottom: 20px;
-	}
-	.sl3waboutstia-grid-2 ul li {
-		padding: 15px 0 20px 90px;
-	}
-	.sl3waboutstia-grid-2 ul li.aitschocow3ls {
-		padding: 25px 0 5px 90px;
-	}
-	.sl3waboutstia-grid-3 {
-		width: 75%;
-		margin-left: 12.5%;
-		padding: 0;
-	}
-	.tabs nav {
-		margin-bottom: 30px;
-	}
-	.chefw3agile-grid h4 {
-		font-size: 25px;
-		margin-bottom: 20px;
-	}
-	ul.social-icons li a {
-		font-size: 30px;
-	}
-	.newsletter-grid {
-		width: 100%;
-		text-align: center;
-	}
-	.subscribe {
-		padding-top: 0;
-		margin-bottom: 15px;
-	}
-	.subscribe p {
-		font-size: 25px;
-	}
-	.email-form input.email {
-		width: 50%;
-	}
-	.aitscontactw3l-grid {
-		width: 50%;
-		float: left;
-	}
-	.aitscontactw3l-grid input.fill-top {
-		margin-bottom: 10px;
-	}
-	.aitscontactw3l-grid-3 {
-		margin-top: 10px;
-		width: 100%;
-	}
-	textarea.fill.message {
-		width: 100%;
-		height: 100px;
-	}
-	.aitscontactw3l-grid input.submit {
-		margin-top: 0;
-	}
+ 
 }
 
 @media screen and (max-width: 767px) {
-	.w3lsstatsaits-grid {
-		width: 25%;
-		float: left;
-	}
-	.gallery-top {
-		width: 33.3%;
-		float: left;
-	}
-	.chefw3agile-grid {
-		padding: 10px;
-		width: 33.3%;
-		float: left;
-	}
+ 
 }
 
 @media screen and (max-width: 736px) {
@@ -668,19 +455,7 @@ ul.callbacks_tabs {
 	.wthreecontact p {
 		padding-top: 23px;
 	}
-	.pic-caption {
-		padding: 2.5em 1em 0;
-	}
-	.agileinfofeedback p {
-		padding: 0;
-		font-size: 14px;
-	}
-	#map {
-		height: 300px;
-	}
-	.footer {
-		padding: 50px 0 30px;
-	}
+ 
 }
 
 @media screen and (max-width: 667px) {
@@ -690,41 +465,14 @@ ul.callbacks_tabs {
 	.wthreecontact a {
 		font-size: 15px;
 	}
-	.sl3waboutstia-grid-1 p {
-		line-height: 25px;
-	}
-	.w3lsstatsaits-grid {
-		padding: 0;
-	}
-	.pic-caption {
-		padding: 2.1em 1em 0;
-	}
-	.chefw3agile-grid h4 {
-		font-size: 23px;
-		margin-bottom: 15px;
-	}
-	.agileinfofeedback p {
-		padding: 0 15px;
-	}
-	.address, .contact, .connect {
-		width: 33.3%;
-	}
+ 
 }
 
 @media screen and (max-width: 640px) {
 	.agileinfomenu p {
 		padding-left: 27px;
 	}
-	.chefw3agile-grid {
-		padding: 0;
-		width: 50%;
-	}
-	.pic-caption {
-		padding: 5em 1em 0;
-	}
-	.footer h5 {
-		margin-bottom: 15px;
-	}
+ 
 }
 
 @media screen and (max-width: 603px) {
@@ -740,15 +488,10 @@ ul.callbacks_tabs {
 	.agilelogo {
 		left: 38%;
 	}
-	.pic-caption {
-		padding: 4.5em 1em 0;
-	}
 	.wthreecontact {
 		width: 25%;
 	}
-	.w3lsstatsaits-info p {
-		font-size: 19px;
-	}
+
 }
 
 @media screen and (max-width: 568px) {
@@ -760,64 +503,7 @@ ul.callbacks_tabs {
 	.aitslogow3ls a {
 		font-size: 28px;
 	}
-	.sl3waboutstia, .portfolio, .chefw3agile, .aitscontactw3l {
-		padding: 35px 0;
-	}
-	.sl3waboutstia h1, .w3lsstatsaits h2, .wthreedesserts h3, .portfolio h3, .chefw3agile h3, .agileinfofeedback h3, .aitscontactw3l h3 {
-		font-size: 30px;
-		margin-bottom: 25px;
-	}
-	.sl3waboutstia-grid h3, .sl3waboutstia-grid h3 {
-		font-size: 18px;
-		margin-bottom: 10px;
-		line-height: 23px;
-	}
-	.sl3waboutstia-grid-1 p {
-		line-height: 22px;
-	}
-	.w3lsstatsaits, .agileinfofeedback {
-		padding: 50px 0;
-	}
-	.w3lsstatsaits-img {
-		margin-bottom: 10px;
-	}
-	.w3lsstatsaits-img img {
-		width: 75px;
-	}
-	.w3lsstatsaitsstats {
-		font-size: 30px;
-		margin-bottom: 0;
-	}
-	.w3lsstatsaits-info p {
-		font-size: 17px;
-		font-weight: 700;
-	}
-	.pic-caption {
-		padding: 4em 1em 0;
-	}
-	.agileinfofeedback p {
-		line-height: 26px;
-	}
-	.agileinfofeedback h4 {
-		font-size: 22px;
-		margin-top: 10px;
-	}
-	.newsletter {
-		padding: 40px 0;
-	}
-	.email-form input.email {
-		width: 60%;
-		padding: 12px 10px;
-	}
-	.email-form input.submit {
-		padding: 13px 30px 12px;
-	}
-	#map {
-		height: 200px;
-	}
-	ul.social-icons li {
-		margin: 0 3px;
-	}
+ 
 }
 
 @media screen and (max-width: 533px) {
@@ -862,65 +548,7 @@ ul.callbacks_tabs {
 	.wthreecontact {
 		width: 28%;
 	}
-	.sl3waboutstia-grid {
-		width: 100%;
-		padding: 0;
-		margin: 15px 0;
-	}
-	.sl3waboutstia-grid-2 {
-		margin-bottom: 30px;
-	}
-	.sl3waboutstia-grid-2 h3 {
-		padding-left: 0;
-	}
-	.sl3waboutstia-grid-2 ul li, .sl3waboutstia-grid-2 ul li.aitschocow3ls {
-		padding: 15px 0 20px 60px;
-	}
-	.sl3waboutstia-grid-2 ul li.agilecake {
-		background: url("../images/special-1.png") no-repeat 5px 10px;
-		background-size: 40px;
-	}
-	.sl3waboutstia-grid-2 ul li.w3pastry {
-		background: url("../images/special-2.png") no-repeat 5px 10px;
-		background-size: 40px;
-	}
-	.sl3waboutstia-grid-2 ul li.aitschocow3ls {
-		background: url("../images/special-3.png") no-repeat 5px 12px;
-		background-size: 40px;
-	}
-	.w3lsstatsaits {
-		padding: 50px 0 20px;
-	}
-	.sl3waboutstia h1, .w3lsstatsaits h2 {
-		margin-bottom: 0;
-	}
-	.w3lsstatsaits-grid {
-		width: 50%;
-		margin: 20px 0;
-	}
-	.w3lsstatsaits-info p {
-		font-size: 20px;
-		font-weight: 100;
-	}
-	.pic-caption {
-		padding: 3em 1em 0;
-	}
-	.agileinfofeedback p {
-		padding: 0;
-		font-size: 13px;
-		line-height: 25px;
-	}
-	.footer-nav ul li {
-		padding: 0 19px;
-	}
-	.footer-nav ul li:nth-child(1) {
-		padding-left: 19px;
-	}
-	.copyright .scroll {
-		font-size: 35px;
-		margin-top: 10px;
-		margin-right: -5px;
-	}
+ 
 }
 
 @media screen and (max-width: 414px) {
@@ -953,60 +581,7 @@ ul.callbacks_tabs {
 	.wthreecontact a {
 		font-size: 14px;
 	}
-	.sl3waboutstia h1, .w3lsstatsaits h2, .wthreedesserts h3, .portfolio h3, .chefw3agile h3, .agileinfofeedback h3, .aitscontactw3l h3 {
-		font-size: 28px;
-	}
-	.sl3waboutstia-grid {
-		margin: 10px 0;
-	}
-	.w3lsstatsaitsstats {
-		font-size: 25px;
-	}
-	.w3lsstatsaits-img img {
-		width: 60px;
-	}
-	.tabs nav {
-		margin-bottom: 20px;
-	}
-	.tabs-style-bar nav ul li a span {
-		letter-spacing: 0;
-		font-size: 14px;
-	}
-	.gallery-top {
-		width: 50%;
-	}
-	.chefw3agile-grid {
-		width: 100%;
-	}
-	.chefw3agile-grid h4 {
-		margin-bottom: 30px;
-		font-size: 28px;
-	}
-	.pic-caption {
-		padding: 6em 0 0;
-	}
-	.agileinfofeedback p {
-		padding: 0 10px;
-	}
-	.aitscontactw3l-grid {
-		width: 100%;
-	}
-	.aitscontactw3l-grid input.fill, .aitscontactw3l-grid textarea.message {
-		font-size: 13px;
-		margin: 10px 0;
-	}
-	.aitscontactw3l-grid input.fill, textarea.fill.message {
-		width: 100%;
-	}
-	.aitscontactw3l-grid input.submit {
-		margin-top: 0;
-	}
-	.footer-nav ul li:nth-child(1) {
-		padding-left: 12px;
-	}
-	.footer-nav ul li {
-		padding: 0 12px;
-	}
+ 
 }
 
 @media screen and (max-width: 384px) {
@@ -1016,63 +591,14 @@ ul.callbacks_tabs {
 	.wthreecontact a {
 		font-size: 13px;
 	}
-	.sl3waboutstia h1, .w3lsstatsaits h2, .wthreedesserts h3, .portfolio h3, .chefw3agile h3, .agileinfofeedback h3, .aitscontactw3l h3 {
-		font-size: 27px;
-	}
-	.w3lsstatsaits-info p {
-		font-size: 19px;
-	}
-	.agileinfofeedback p {
-		padding: 0;
-	}
-	.subscribe p {
-		font-size: 23px;
-	}
-	.email-form input.email {
-		width: 100%;
-		padding: 10px;
-		font-size: 13px;
-		margin-bottom: 5px;
-	}
-	.email-form input.submit {
-		padding: 10px 30px;
-		float: right;
-		font-size: 13px;
-	}
-	.aitscontactw3l-grid-3 {
-		margin-top: 0;
-	}
-	.footer-nav ul li:nth-child(1) {
-		padding-left: 5px;
-	}
-	.footer-nav ul li {
-		padding: 0 10px;
-	}
-	.pic-caption {
-		padding: 5em 0 0;
-	}
-	a.to-top {
-		margin-top: 5px;
-	}
+ 
 }
 
 @media screen and (max-width: 375px) {
 	.agilelogo {
 		left: 35%;
 	}
-	.sl3waboutstia h1, .w3lsstatsaits h2, .wthreedesserts h3, .portfolio h3, .chefw3agile h3, .agileinfofeedback h3, .aitscontactw3l h3 {
-		font-size: 25px;
-	}
-	.sl3waboutstia-grid h3, .sl3waboutstia-grid h3 {
-		font-size: 17px;
-		line-height: 20px;
-	}
-	.agileinfofeedback p {
-		padding: 0 10px;
-	}
-	.footer-nav ul li {
-		padding: 0 9px;
-	}
+ 
 }
 
 @media screen and (max-width: 360px) {
@@ -1082,15 +608,7 @@ ul.callbacks_tabs {
 	.wthreecontact a {
 		font-size: 12px;
 	}
-	.agileinfofeedback p {
-		padding: 0;
-	}
-	.subscribe p {
-		font-size: 22px;
-	}
-	.footer-nav ul li {
-		padding: 0 7px;
-	}
+ 
 }
 
 @media screen and (max-width: 320px) {
@@ -1114,50 +632,7 @@ ul.callbacks_tabs {
 	.wthreecontact {
 		width: 35%;
 	}
-	.w3lsstatsaits-info p {
-		font-size: 18px;
-	}
-	.wthreedesserts h3 {
-		font-size: 22px;
-	}
-	.tabs-style-bar nav ul li a {
-		margin: 0 1px;
-		padding: 5px;
-		line-height: 2;
-	}
-	.tabs-style-bar nav ul li a span {
-		font-size: 13px;
-	}
-	.gallery-top {
-		width: 100%;
-	}
-	.pic-caption {
-		padding: 4em 0 0;
-	}
-	.agileinfofeedback h3 {
-		font-size: 23px;
-	}
-	.agileinfofeedback p {
-		padding: 0 5px;
-	}
-	.subscribe p {
-		font-size: 19px;
-	}
-	.address, .contact {
-		width: 100%;
-	}
-	.address {
-		margin-bottom: 20px;
-	}
-	.footer h5 {
-		margin-bottom: 10px;
-	}
-	.footer-nav ul li:nth-child(1) {
-		padding-left: 0;
-	}
-	.footer-nav ul li {
-		padding: 0 3px;
-	}
+ 
 }
 
 
