@@ -1,7 +1,7 @@
 <div class="container-fluid" id="slogan">
   <div class="row">
     <div class="col-sm-12 col-md-12">
-        <%= video_tag(
+        <%#= video_tag(
               ['pizza_brighter.webm', 'pizza_brighter.m4v','pizza_brighter.ogg'],
               id: 'vid',
               class: 'embed-responsive',
@@ -11,6 +11,12 @@
               poster: 'poster2.webp'
             )
           %>
+          
+          <video id="vid" autobuffer height="240" width="360">
+            <source src="pizza_brighter.m4v">
+            <source src="pizza_brighter.webm" type="video/webm">
+            <source src="pizza_brighter.ogv" type="video/ogg">
+          </video>
         <h1 class="overlay-desc">welcome to my world</h1>
     </div>
   </div>
