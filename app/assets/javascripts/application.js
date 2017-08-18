@@ -16,6 +16,7 @@
 //= require smoothscroll
 //= require workhours
 //= require main
+//= require play_video
 //= require bootstrap-sprockets
 //= require_tree .
 
