@@ -79,9 +79,8 @@ Rails.application.configure do
   
   
   # config.serve_static_assets = true rename to the below 
-  config.serve_static_files = true
-  config.static_cache_control = 'public, max-age=1000'
+  config.serve_static_files = true 
   config.perform_caching = true
   config.assets.compress = true
-  
+  config.static_cache_control = "public, s-maxage=31536000, maxage=15552000"
 end
