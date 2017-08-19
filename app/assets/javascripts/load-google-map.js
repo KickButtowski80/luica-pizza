@@ -4,6 +4,10 @@ $(function() {
         locations: [{
             lat: 34.027048,
             lon: -118.391561,
+            title:'Lucia Pizza',
+            html: ['<h3>Lucia Pizza</h3>',
+                   '<p>9030 Venice Blvd Los Angeles CA, 90232</p>',
+                   '<p> tel: (310) 838-0331 </p>'].join(''),
             zoom: 10
         }]
     }).Load();
