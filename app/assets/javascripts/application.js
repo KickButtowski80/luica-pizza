@@ -15,7 +15,10 @@
 //= require jquery3
 //= require smoothscroll
 //= require workhours
-//= require main 
+//= require main
+//= require play_video
+//= require Maplace
+//= require load-google-map   
 //= require bootstrap-sprockets
 //= require_tree .
 
