@@ -7,7 +7,7 @@
   <%#= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry&v=3.22&key=#{ENV.fetch("GOOGLE_API_KEY")}' , :async => true %>
 
     <script
-    src="https://maps.googleapis.com/maps/api/js?key=#{ENV['GOOGLE_API_KEY']}">
+    src="https://maps.googleapis.com/maps/api/js?key=#{ENV['google_api_key']}">
     </script>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
