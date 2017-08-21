@@ -4,10 +4,7 @@
   <title>Workspace</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true , :cache => true, :async => true %>
-  <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB_bhcuJbmnYHQViWNhZopT9QHxWcUjpT0&callback=initMap&sensor=false&libraries=geometry&v=3.22' , :async => true %>
-  <!--<script async="true" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA48HFhUCbuHU-sKUlupXfG4nMGwG3KqKU&callback=initMap"-->
- 
-  type="text/javascript"></script>
+  <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB_bhcuJbmnYHQViWNhZopT9QHxWcUjpT0&callback=initMap', :async => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
 </head>
