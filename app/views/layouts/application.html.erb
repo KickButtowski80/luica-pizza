@@ -9,7 +9,7 @@
    <!--<script async defer-->
    <!--   src="https://maps.googleapis.com/maps/api/js?key=#{ENV.fetch("GOOGLE_API_KEY")}&v=3.22&sensor=false">-->
    <!-- </script>--> 
-   <%= javascript_include_tag "//maps.google.com/maps/api/js?key=#{ENV['GOOGLE_API_KEY']}" %>
+   <%= javascript_include_tag "//maps.google.com/maps/api/js?libraries=places&key=#{ENV['GOOGLE_API_KEY']}" %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
 </head>
