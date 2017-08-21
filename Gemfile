@@ -55,3 +55,4 @@ gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
 gem 'rails_12factor', group: :production
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'rack-cache', '~> 1.7'
