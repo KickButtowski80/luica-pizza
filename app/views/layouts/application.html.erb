@@ -8,14 +8,8 @@
 
    <!--<script async defer-->
    <!--   src="https://maps.googleapis.com/maps/api/js?key=#{ENV.fetch("GOOGLE_API_KEY")}&v=3.22&sensor=false">-->
-   <!-- </script>-->
-    <script> 
-       var google_api_key1="#{ENV['google_api_key']}";
-       alert(google_api_key1);
-    </script>
-    <script
-    src="https://maps.googleapis.com/maps/api/js?key=#{ENV['google_api_key']}&v=3.22">
-    </script>
+   <!-- </script>--> 
+   <%= javascript_include_tag "//maps.google.com/maps/api/js?key=#{ENV['GOOGLE_API_KEY']}" %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
 </head>

@@ -54,4 +54,4 @@ gem "font-awesome-rails"
 gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
 gem 'rails_12factor', group: :production
-gem 'dotenv-rails'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
