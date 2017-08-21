@@ -11,7 +11,7 @@
    <!-- </script>-->
     
     <script
-    src="https://maps.googleapis.com/maps/api/js?key=#{ENV['google_api_key']}&v=3.22">
+    src="https://maps.googleapis.com/maps/api/js?key="<%="#{ENV['google_api_key']}"%>"&v=3.22">
     </script>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
@@ -25,9 +25,7 @@
   <%= render template: 'menus/lunch/index'  if controller.controller_name == 'lunch'%>
   <%= render template: 'menus/dinner/index' if controller.controller_name == 'dinner'%>
   <%= render 'shared/contact' %>
-  
-  <h1>google api key:</h1>
-        <h1></h1>
+
   
 </body>
 </html>
