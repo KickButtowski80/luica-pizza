@@ -23,10 +23,10 @@ module Workspace
     config.active_record.raise_in_transactional_callbacks = true
     #config.serve_static_assets = true 
     config.assets.paths << "#{Rails.root}/public/videos"
-    module YourApp
-      class Application < Rails::Application
-        config.middleware.use Rack::Deflater
-      end
-    end
+    # module YourApp
+    #   class Application < Rails::Application
+    #     config.middleware.use Rack::Deflater
+    #   end
+    # end
   end
 end
