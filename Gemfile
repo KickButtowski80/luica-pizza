@@ -54,6 +54,5 @@ gem "font-awesome-rails"
 gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
 gem 'rails_12factor', group: :production
-
 gem 'heroku-deflater', :group => :production
 gem 'rack-cache', '~> 1.7'
