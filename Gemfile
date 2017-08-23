@@ -56,3 +56,4 @@ gem 'actionpack-action_caching'
 gem 'rails_12factor', group: :production
 gem 'heroku-deflater', :group => :production
 gem 'rack-cache', '~> 1.7'
+gem 'lazyload-rails', '~> 0.3.1'

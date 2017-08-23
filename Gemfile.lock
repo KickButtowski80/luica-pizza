@@ -83,6 +83,8 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.6)
+    lazyload-rails (0.3.1)
+      nokogiri (~> 1.5)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.6)
@@ -191,6 +193,7 @@ DEPENDENCIES
   heroku-deflater
   jbuilder (~> 2.0)
   jquery-rails
+  lazyload-rails (~> 0.3.1)
   pg (~> 0.18.4)
   puma
   rack-cache (~> 1.7)
