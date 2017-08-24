@@ -10,15 +10,8 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
 //= require jquery3
-//= require smoothscroll
-//= require workhours
-//= require main
-//= require play_video
-//= require Maplace
-//= require load-google-map   
+//= require jquery_ujs 
 //= require bootstrap-sprockets
 //= require_tree .
 

@@ -10,8 +10,7 @@
 
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
-$(document).ready(function(){
-  // ( function( window ) {
+( function( window ) {
   
   'use strict';
   
