@@ -548,8 +548,12 @@ ul.callbacks_tabs {
 	.wthreecontact {
 		width: 28%;
 	}
- 
 }
+
+
+
+
+
 
 @media screen and (max-width: 414px) {
 	.agiletopbar, .wthreenavigation, .agileinfomenu, .aitslogow3ls, .wthreecontact {
@@ -951,6 +955,18 @@ ul.callbacks_tabs {
     top: 0px;
 }
 
+
+#menu-logo{
+    font-size: 30px;
+    padding-left: 11px;
+}
+
+@media screen and (max-width: 425px){
+	   #menu-logo {
+	    font-size: 18px;
+	    padding-left: 5px;
+    }
+}
 
 /*foot partial css*/
 
