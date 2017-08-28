@@ -54,6 +54,7 @@ gem "font-awesome-rails"
 gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
 gem 'rails_12factor', group: :production
+gem 'rails_serve_static_assets', '~> 0.0.5'
 gem 'heroku-deflater', :group => :production, git: "https://github.com/romanbsd/heroku-deflater.git"
 gem 'rack-cache', '~> 1.7'
 gem 'lazyload-rails', '~> 0.3.1'
@@ -63,4 +64,4 @@ gem 'lazyload-rails', '~> 0.3.1'
 # it is up there and needed for down .gem 'rack-cache'
 gem 'dalli', '~> 2.7', '>= 2.7.6'
 gem "memcachier"
-gem 'kgio'
+gem 'kgio' 
