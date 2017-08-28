@@ -191,7 +191,7 @@ DEPENDENCIES
   dalli (~> 2.7, >= 2.7.6)
   font-awesome-rails
   font-awesome-sass (~> 4.7.0)
-  heroku-deflater
+  heroku-deflater (~> 0.6.2)
   jbuilder (~> 2.0)
   jquery-rails
   kgio
