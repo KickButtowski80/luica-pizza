@@ -54,7 +54,7 @@ gem "font-awesome-rails"
 gem "actionpack-page_caching"
 gem 'actionpack-action_caching'
 gem 'rails_12factor', group: :production
-gem 'heroku-deflater', '~> 0.6.2'
+gem 'heroku-deflater', :group => :production, git: "https://github.com/romanbsd/heroku-deflater.git"
 gem 'rack-cache', '~> 1.7'
 gem 'lazyload-rails', '~> 0.3.1'
 
