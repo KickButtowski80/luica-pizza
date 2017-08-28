@@ -10,7 +10,7 @@
 
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
-( function( window ) {
+$(document).ready(function(){
   
   'use strict';
   
@@ -75,7 +75,4 @@
     // browser global
     window.classie = classie;
   }
-  
-  
-
-})( window );
+});

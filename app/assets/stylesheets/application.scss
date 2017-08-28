@@ -1,919 +1,684 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "font-awesome"; 
-
- /*--
+@import "font-awesome";
+/*--
 	Author: W3Layouts
 	Author URL: http://w3layouts.com
 	License: Creative Commons Attribution 3.0 Unported
 	License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-
-
-
 /*-- Reset-Code --*/
 
 body {
-	padding: 0;
-	margin: 0;
-	background: #FFF;
-	font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    font-family: 'Noto Sans', sans-serif;
 }
-
 body a {
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-	text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
 }
-
 body a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
-
-body a:focus, a:hover {
-	text-decoration: none;
+body a:focus,
+a:hover {
+    text-decoration: none;
 }
-
-input[type="button"], input[type="submit"], button.btn, button.btn:hover {
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
+input[type="button"],
+input[type="submit"],
+button.btn,
+button.btn:hover {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
 }
-
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
-
 p {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
-
 ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 label {
-	margin: 0;
+    margin: 0;
 }
-
 img {
-	width: 100%;
+    width: 100%;
 }
-
-a:focus, a:hover {
-	text-decoration: none;
-	outline: none;
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
 }
-
 /*-- //Reset-Code --*/
-
-
-
-
-
 /*-- Index-Page-Styling --*/
-
-
-
-
-
 /*-- Top-Bar --*/
 
 .agiletopbar {
-	height: 80px;
+    height: 80px;
 }
-
 .wthreenavigation {
-	width: 5%;
-	float: left;
-	height: 80px;
+    width: 5%;
+    float: left;
+    height: 80px;
 }
-
 .agileinfomenu {
-	width: 10%;
-	float: left;
-	height: 80px;
-	border-right: 1px solid #777;
+    width: 10%;
+    float: left;
+    height: 80px;
+    border-right: 1px solid #777;
 }
-
 .agileinfomenu p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	padding-top: 29px;
-	padding-left: 35px;
-	height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 29px;
+    padding-left: 35px;
+    height: 100%;
 }
-
 .aitslogow3ls {
-	width: 70%;
-	float: left;
-	height: 80px;
-	text-align: center;
+    width: 70%;
+    float: left;
+    height: 80px;
+    text-align: center;
 }
-
 .agilelogo {
-	position: absolute;
-	left: 43.5%;
-	top: 5px;
-	z-index: 9999;
-	padding-top: 35px;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	background-color: #ec952b;
-	border: 1px solid #FFF;
-	border-width: thick;
+    position: absolute;
+    left: 43.5%;
+    top: 5px;
+    z-index: 9999;
+    padding-top: 35px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ec952b;
+    border: 1px solid #FFF;
+    border-width: thick;
 }
-
 .aitslogow3ls a {
-	font-family: 'Oleo Script Swash Caps', cursive;
-	font-size: 45px;
-	color: #FFF;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 45px;
+    color: #FFF;
 }
-
 .wthreecontact {
-	width: 15%;
-	float: left;
-	height: 80px;
-	text-align: center;
-	border-left: 1px solid #777;
+    width: 15%;
+    float: left;
+    height: 80px;
+    text-align: center;
+    border-left: 1px solid #777;
 }
-
 .wthreecontact p {
-	padding-top: 27px;
+    padding-top: 27px;
 }
-
 .wthreecontact a {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000;
 }
-
 .wthreecontact a:hover {
-	color: #ec952b;
+    color: #ec952b;
 }
-
 .wthreecontact a i {
-	margin-right: 5px;
+    margin-right: 5px;
 }
-
 /*-- //Top-Bar --*/
-
-
-
 /*-- Slider --*/
 
 .rslides {
-	position: relative;
-	list-style: none;
-	overflow: hidden;
-	width: 100%;
-	padding: 0;
-	margin: 0;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
-
 .rslides li {
-	-webkit-backface-visibility: hidden;
-	position: absolute;
-	display: none;
-	width: 100%;
-	left: 0;
-	top: 0;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
-
 .rslides li:first-child {
-	position: relative;
-	display: block;
-	float: left;
+    position: relative;
+    display: block;
+    float: left;
 }
-
 .rslides img {
-	display: block;
-	float: left;
-	width: 100%;
-	height: 100%;
-	border: 0;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
-
 a.callbacks_nav {
-	display: none;
+    display: none;
 }
-
 ul.callbacks_tabs {
-	display: none;
+    display: none;
 }
-
 /*-- //Slider --*/
-
-
-
 /*-- About --*/
-
-
 /*-- //About --*/
-
-
-
 /*-- Stats --*/
-
-
-
 /*-- //Stats --*/
-
-
-
 /*-- Desserts --*/
-
-
 /*-- Desserts --*/
-
-
-
 /*-- Portfolio --*/
-
-
-		/*-- //Tabs-Content --*/
-
-		/*-- Fallback --*/
-
-	
-		/*-- //Fallback --*/
-
-		/*-- Tabs-Styling --*/
-
-
-		/*-- //Tabs-Styling --*/
-
-		/*-- Tab-Images --*/
-
-
-		/*-- //Tab-Images --*/
-
-	/*-- //Tabs --*/
-
+/*-- //Tabs-Content --*/
+/*-- Fallback --*/
+/*-- //Fallback --*/
+/*-- Tabs-Styling --*/
+/*-- //Tabs-Styling --*/
+/*-- Tab-Images --*/
+/*-- //Tab-Images --*/
+/*-- //Tabs --*/
 /*-- //Portfolio --*/
-
-
-
 /*-- Chefs --*/
-
-
-
 /*-- //Chefs --*/
-
-
-
 /*-- Feedback --*/
-
 /*-- //Feedback --*/
-
-
-
 /*-- Newsletter --*/
-
-
-
 /*-- //Newsletter --*/
-
-
-
 /*-- Contact --*/
-
-
 /*-- //Contact --*/
-
-
-
 /*-- Map --*/
-
-
 /*-- //Map --*/
-
-
-
 /*-- Footer --*/
-
-	/*-- Footer-Social-Icons --*/
-
-
-	/*-- Footer-Social-Icons --*/
-
-
-
-	/*-- //Copyright --*/
-
+/*-- Footer-Social-Icons --*/
+/*-- Footer-Social-Icons --*/
+/*-- //Copyright --*/
 /*-- //Footer --*/
-
-
-
 /*-- Text-Selection-Background-Color --
 
 	/*-- Works on common browsers --*/
-
-
 /*-- //Text-Selection-Background-Color --*/
-
-
-
-
-
 /*-- //Index-Page-Styling --*/
-
-
-
-
-
-
-
-
-
-
 /*-- Responsive-Code --*/
 
-
-
-
-
 @media screen and (max-width: 1080px) {
-	.agileinfomenu p {
-		font-size: 18px;
-		padding-top: 31px;
-		padding-left: 25px;
-	}
-	.wthreecontact p {
-		padding-top: 30px;
-	}
-	.wthreecontact a {
-		font-size: 17px;
-	}
-	.wthreecontact a i {
-		margin-right: 0;
-	}
-	.aitslogow3ls a {
-		font-size: 35px;
-	}
-	.agilelogo {
-		left: 41.5%;
-		width: 175px;
-		height: 175px;
-	}
- 
+    .agileinfomenu p {
+        font-size: 18px;
+        padding-top: 31px;
+        padding-left: 25px;
+    }
+    .wthreecontact p {
+        padding-top: 30px;
+    }
+    .wthreecontact a {
+        font-size: 17px;
+    }
+    .wthreecontact a i {
+        margin-right: 0;
+    }
+    .aitslogow3ls a {
+        font-size: 35px;
+    }
+    .agilelogo {
+        left: 41.5%;
+        width: 175px;
+        height: 175px;
+    }
 }
-
 @media screen and (max-width: 991px) {
-	.container {
-		width: 100%;
-	}
+    .container {
+        width: 100%;
+    }
 }
-
 @media screen and (max-width: 966px) {
-	.wthreecontact a {
-		font-size: 16px;
-	}
- 
+    .wthreecontact a {
+        font-size: 16px;
+    }
 }
-
 @media screen and (max-width: 900px) {
-	.agileinfomenu {
-		width: 15%;
-	}
-	.agileinfomenu p {
-		padding-left: 45px;
-	}
-	.aitslogow3ls {
-		width: 60%;
-	}
-	.agilelogo {
-		width: 160px;
-		height: 160px;
-	}
-	.aitslogow3ls a {
-		font-size: 33px;
-	}
-	.wthreecontact {
-		width: 20%;
-	}
-	.agilelogo {
-		left: 40%;
-	}
- 
+    .agileinfomenu {
+        width: 15%;
+    }
+    .agileinfomenu p {
+        padding-left: 45px;
+    }
+    .aitslogow3ls {
+        width: 60%;
+    }
+    .agilelogo {
+        width: 160px;
+        height: 160px;
+    }
+    .aitslogow3ls a {
+        font-size: 33px;
+    }
+    .wthreecontact {
+        width: 20%;
+    }
+    .agilelogo {
+        left: 40%;
+    }
 }
-
-@media screen and (max-width: 853px) {
- 
-}
-
-@media screen and (max-width: 800px) {
- 
-}
-
-@media screen and (max-width: 768px) {
- 
-}
-
-@media screen and (max-width: 767px) {
- 
-}
-
 @media screen and (max-width: 736px) {
-	.agiletopbar, .wthreenavigation, .agileinfomenu, .aitslogow3ls, .wthreecontact {
-		height: 65px;
-	}
-	.menu-button {
-		margin: 10px;
-	}
-	.menu-wrap {
-		width: 250px;
-		padding: 10px 0 0 10px;
-	}
-	.icon-list a {
-		padding: 10px;
-	}
-	.icon-list a span {
-		font-size: 14px;
-	}
-	.agileinfomenu p {
-		padding-top: 21px;
-		padding-left: 32px;
-	}
-	.agilelogo {
-		width: 140px;
-		height: 140px;
-		padding-top: 20px;
-		top: 0;
-	}
-	.wthreecontact p {
-		padding-top: 23px;
-	}
- 
+    .agiletopbar,
+    .wthreenavigation,
+    .agileinfomenu,
+    .aitslogow3ls,
+    .wthreecontact {
+        height: 65px;
+    }
+    .menu-button {
+        margin: 10px;
+    }
+    .menu-wrap {
+        width: 250px;
+        padding: 10px 0 0 10px;
+    }
+    .icon-list a {
+        padding: 10px;
+    }
+    .icon-list a span {
+        font-size: 14px;
+    }
+    .agileinfomenu p {
+        padding-top: 21px;
+        padding-left: 32px;
+    }
+    .agilelogo {
+        width: 140px;
+        height: 140px;
+        padding-top: 20px;
+        top: 0;
+    }
+    .wthreecontact p {
+        padding-top: 23px;
+    }
 }
-
 @media screen and (max-width: 667px) {
-	.icon-list a {
-		padding: 9px;
-	}
-	.wthreecontact a {
-		font-size: 15px;
-	}
- 
+    .icon-list a {
+        padding: 9px;
+    }
+    .wthreecontact a {
+        font-size: 15px;
+    }
 }
-
 @media screen and (max-width: 640px) {
-	.agileinfomenu p {
-		padding-left: 27px;
-	}
- 
+    .agileinfomenu p {
+        padding-left: 27px;
+    }
 }
-
 @media screen and (max-width: 603px) {
-	.agileinfomenu {
-		width: 20%;
-	}
-	.agileinfomenu p {
-		padding-left: 35px;
-	}
-	.aitslogow3ls {
-		width: 50%;
-	}
-	.agilelogo {
-		left: 38%;
-	}
-	.wthreecontact {
-		width: 25%;
-	}
-
+    .agileinfomenu {
+        width: 20%;
+    }
+    .agileinfomenu p {
+        padding-left: 35px;
+    }
+    .aitslogow3ls {
+        width: 50%;
+    }
+    .agilelogo {
+        left: 38%;
+    }
+    .wthreecontact {
+        width: 25%;
+    }
 }
-
 @media screen and (max-width: 568px) {
-	.agilelogo {
-		width: 125px;
-		height: 125px;
-		left: 39%;
-	}
-	.aitslogow3ls a {
-		font-size: 28px;
-	}
- 
+    .agilelogo {
+        width: 125px;
+        height: 125px;
+        left: 39%;
+    }
+    .aitslogow3ls a {
+        font-size: 28px;
+    }
 }
-
-@media screen and (max-width: 533px) {
-	.agileinfofeedback p {
-		padding: 0;
-	}
-	.address, .contact {
-		width: 50%;
-	}
-	.connect {
-		width: 100%;
-		text-align: center;
-		margin-top: 30px;
-	}
-	.connect h5 {
-		margin-left: 0;
-		text-align: center;
-	}
-	.social {
-		text-align: center;
-	}
-	.connect ul.social-icons {
-		text-align: center;
-	}
-}
-
 @media screen and (max-width: 480px) {
-	.agileinfomenu {
-		width: 23%;
-	}
-	.aitslogow3ls {
-		width: 44%;
-	}
-	.agilelogo {
-		width: 110px;
-		height: 110px;
-		left: 38.5%;
-	}
-	.aitslogow3ls a {
-		font-size: 25px;
-	}
-	.wthreecontact {
-		width: 28%;
-	}
+    .agileinfomenu {
+        width: 23%;
+    }
+    .aitslogow3ls {
+        width: 44%;
+    }
+    .agilelogo {
+        width: 110px;
+        height: 110px;
+        left: 38.5%;
+    }
+    .aitslogow3ls a {
+        font-size: 25px;
+    }
+    .wthreecontact {
+        width: 28%;
+    }
 }
-
-
-
-
-
-
 @media screen and (max-width: 414px) {
-	.agiletopbar, .wthreenavigation, .agileinfomenu, .aitslogow3ls, .wthreecontact {
-		height: 50px;
-	}
-	.wthreenavigation {
-		width: 0;
-	}
-	.agileinfomenu {
-		width: 30%;
-	}
-	.agileinfomenu p {
-		padding-left: 46px;
-		font-size: 16px;
-		padding-top: 16px;
-	}
-	.aitslogow3ls {
-		width: 40%;
-	}
-	.agilelogo {
-		left: 36.5%;
-	}
-	.wthreecontact {
-		width: 30%;
-	}
-	.wthreecontact p {
-		padding-top: 16px;
-	}
-	.wthreecontact a {
-		font-size: 14px;
-	}
- 
+    .agiletopbar,
+    .wthreenavigation,
+    .agileinfomenu,
+    .aitslogow3ls,
+    .wthreecontact {
+        height: 50px;
+    }
+    .wthreenavigation {
+        width: 0;
+    }
+    .agileinfomenu {
+        width: 30%;
+    }
+    .agileinfomenu p {
+        padding-left: 46px;
+        font-size: 16px;
+        padding-top: 16px;
+    }
+    .aitslogow3ls {
+        width: 40%;
+    }
+    .agilelogo {
+        left: 36.5%;
+    }
+    .wthreecontact {
+        width: 30%;
+    }
+    .wthreecontact p {
+        padding-top: 16px;
+    }
+    .wthreecontact a {
+        font-size: 14px;
+    }
 }
-
 @media screen and (max-width: 384px) {
-	.agilelogo {
-		left: 35.5%;
-	}
-	.wthreecontact a {
-		font-size: 13px;
-	}
- 
+    .agilelogo {
+        left: 35.5%;
+    }
+    .wthreecontact a {
+        font-size: 13px;
+    }
 }
-
 @media screen and (max-width: 375px) {
-	.agilelogo {
-		left: 35%;
-	}
- 
+    .agilelogo {
+        left: 35%;
+    }
 }
-
 @media screen and (max-width: 360px) {
-	.agilelogo {
-		left: 34%;
-	}
-	.wthreecontact a {
-		font-size: 12px;
-	}
- 
+    .agilelogo {
+        left: 34%;
+    }
+    .wthreecontact a {
+        font-size: 12px;
+    }
 }
-
 @media screen and (max-width: 320px) {
-	.agileinfomenu {
-		width: 35%;
-	}
-	.aitslogow3ls {
-		width: 30%;
-	}
-	.aitslogow3ls a {
-		font-size: 21px;
-	}
-	.agilelogo {
-		left: 35.15%;
-		width: 90px;
-		height: 90px;
-		padding-top: 15px;
-		border-width: 3px;
-		top: -3px;
-	}
-	.wthreecontact {
-		width: 35%;
-	}
- 
+    .agileinfomenu {
+        width: 35%;
+    }
+    .aitslogow3ls {
+        width: 30%;
+    }
+    .aitslogow3ls a {
+        font-size: 21px;
+    }
+    .agilelogo {
+        left: 35.15%;
+        width: 90px;
+        height: 90px;
+        padding-top: 15px;
+        border-width: 3px;
+        top: -3px;
+    }
+    .wthreecontact {
+        width: 35%;
+    }
 }
+/*-- //Responsive-Code --*/
 
-
-
-
-
-/*-- //Responsive-Code --*/ 
-
-// menu 
-
+/* menu *
 .menu-wrap a {
-	color: #b8b7ad;
+    color: #b8b7ad;
 }
-
-.menu-wrap a:hover, .menu-wrap a:focus {
-	color: #FFF;
+.menu-wrap a:hover,
+.menu-wrap a:focus {
+    color: #FFF;
 }
-
 .menu-wrap a.active {
     color: #FFF;
 }
-
 /* Menu Button */
+
 .menu-button {
-	position: fixed;
-	z-index: 1000;
-	margin: 1em;
-	padding: 0;
-	width: 2.5em;
-	height: 2.25em;
-	border: none;
-	font-size: 20px;
-	color: transparent;
-	background: #FFF;
-	outline: none;
+    position: fixed;
+    z-index: 1000;
+    margin: 1em;
+    padding: 0;
+    width: 2.5em;
+    height: 2.25em;
+    border: none;
+    font-size: 20px;
+    color: transparent;
+    background: #FFF;
+    outline: none;
 }
-
 .menu-button::before {
-	position: absolute;
-	top: 0.5em;
-	right: 0.5em;
-	bottom: 0.5em;
-	left: 0.5em;
-	background: linear-gradient(#000 20%, transparent 20%, transparent 40%, #000 40%, #000 60%, transparent 60%, transparent 80%, #000 80%);
-	content: '';
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    background: linear-gradient(#000 20%, transparent 20%, transparent 40%, #000 40%, #000 60%, transparent 60%, transparent 80%, #000 80%);
+    content: '';
 }
-
 .menu-button:hover {
-	opacity: 0.75;
+    opacity: 0.75;
 }
-
 /* Close Button */
+
 .close-button {
-	width: 1em;
-	height: 1em;
-	position: absolute;
-	right: 1em;
-	top: 1em;
-	overflow: hidden;
-	text-indent: 1em;
-	font-size: 20px;
-	border: none;
-	background: transparent;
-	color: transparent;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    overflow: hidden;
+    text-indent: 1em;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    color: transparent;
 }
-
-.close-button::before, .close-button::after {
-	content: '';
-	position: absolute;
-	width: 3px;
-	height: 100%;
-	top: 0;
-	left: 50%;
-	background: #bdc3c7;
-}
-
-.close-button::before {
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
+.close-button::before,
 .close-button::after {
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    background: #bdc3c7;
 }
-
+.close-button::before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.close-button::after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
 /* Menu */
+
 .menu-wrap {
-	position: fixed;
-	z-index: 1001;
-	width: 300px;
-	height: 100%;
-	background: #272727;
-	padding: 2.5em 1.5em 0;
-	font-size: 1.15em;
-	-webkit-transform: translate3d(-320px,0,0);
-	transform: translate3d(-320px,0,0);
-	-webkit-transition: -webkit-transform 0.4s;
-	transition: transform 0.4s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    position: fixed;
+    z-index: 1001;
+    width: 300px;
+    height: 100%;
+    background: #272727;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    -webkit-transform: translate3d(-320px, 0, 0);
+    transform: translate3d(-320px, 0, 0);
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
-
-.menu, .icon-list {
-	height: 100%;
-}
-
+.menu,
 .icon-list {
-	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
+    height: 100%;
 }
-
+.icon-list {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
 .icon-list a {
-	display: block;
-	padding: 0.8em;
-	-webkit-transform: translate3d(0,500px,0);
-	transform: translate3d(0,500px,0);
+    display: block;
+    padding: 0.8em;
+    -webkit-transform: translate3d(0, 500px, 0);
+    transform: translate3d(0, 500px, 0);
 }
-
 .icon-list,
 .icon-list a {
-	-webkit-transition: -webkit-transform 0s 0.4s;
-	transition: transform 0s 0.4s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    -webkit-transition: -webkit-transform 0s 0.4s;
+    transition: transform 0s 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
-
 .icon-list a:nth-child(2) {
-	-webkit-transform: translate3d(0,1000px,0);
-	transform: translate3d(0,1000px,0);
+    -webkit-transform: translate3d(0, 1000px, 0);
+    transform: translate3d(0, 1000px, 0);
 }
-
 .icon-list a:nth-child(3) {
-	-webkit-transform: translate3d(0,1500px,0);
-	transform: translate3d(0,1500px,0);
+    -webkit-transform: translate3d(0, 1500px, 0);
+    transform: translate3d(0, 1500px, 0);
 }
-
 .icon-list a:nth-child(4) {
-	-webkit-transform: translate3d(0,2000px,0);
-	transform: translate3d(0,2000px,0);
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
 }
-
 .icon-list a:nth-child(5) {
-	-webkit-transform: translate3d(0,2500px,0);
-	transform: translate3d(0,2500px,0);
+    -webkit-transform: translate3d(0, 2500px, 0);
+    transform: translate3d(0, 2500px, 0);
 }
-
 .icon-list a:nth-child(6) {
-	-webkit-transform: translate3d(0,3000px,0);
-	transform: translate3d(0,3000px,0);
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
 }
-
 .icon-list a:nth-child(7) {
-	-webkit-transform: translate3d(0,3000px,0);
-	transform: translate3d(0,3000px,0);
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
 }
-
 .icon-list a:nth-child(8) {
-	-webkit-transform: translate3d(0,3000px,0);
-	transform: translate3d(0,3000px,0);
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
 }
-
 .icon-list a:nth-child(9) {
-	-webkit-transform: translate3d(0,3000px,0);
-	transform: translate3d(0,3000px,0);
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
 }
-
 .icon-list a span {
-	margin-left: 15px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
-
 .show-menu .menu-wrap {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-	-webkit-transition: -webkit-transform 0.8s;
-	transition: transform 0.8s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
-
-.show-menu .icon-list, .show-menu .icon-list a {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-	-webkit-transition: -webkit-transform 0.8s;
-	transition: transform 0.8s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-}
-
+.show-menu .icon-list,
 .show-menu .icon-list a {
-	-webkit-transition-duration: 0.9s;
-	transition-duration: 0.9s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
-
+.show-menu .icon-list a {
+    -webkit-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+}
 @media screen and (max-width: 736px) {
-	.menu-button {
-		margin: 10px;
-	}
-	.menu-wrap {
-		width: 250px;
-		padding: 10px 0 0 10px;
-	}
-	.icon-list a {
-		padding: 10px;
-	}
-	.icon-list a span {
-		font-size: 14px;
-	}
+    .menu-button {
+        margin: 10px;
+    }
+    .menu-wrap {
+        width: 250px;
+        padding: 10px 0 0 10px;
+    }
+    .icon-list a {
+        padding: 10px;
+    }
+    .icon-list a span {
+        font-size: 14px;
+    }
 }
-
 @media screen and (max-width: 667px) {
-	.icon-list a {
-		padding: 9px;
-	}
+    .icon-list a {
+        padding: 9px;
+    }
 }
-
 @media screen and (max-width: 640px) {
-	.menu-wrap {
-		width: 200px;
-	}
-	.icon-list a {
-		padding: 8px;
-	}
+    .menu-wrap {
+        width: 200px;
+    }
+    .icon-list a {
+        padding: 8px;
+    }
 }
-
 @media screen and (max-width: 568px) {
-	.icon-list a {
-		padding: 6px;
-	}
+    .icon-list a {
+        padding: 6px;
+    }
 }
-
 @media screen and (max-width: 480px) {
-	.menu-button {
-		margin: 12px;
-		width: 2em;
-		height: 2em;
-	}
-	.menu-wrap {
-		width: 175px;
-		z-index: 99999;
-	}
+    .menu-button {
+        margin: 12px;
+        width: 2em;
+        height: 2em;
+    }
+    .menu-wrap {
+        width: 175px;
+        z-index: 99999;
+    }
 }
-
 @media screen and (max-width: 414px) {
-	.menu-button {
-		margin: 5px;
-	}
+    .menu-button {
+        margin: 5px;
+    }
 }
-
-
-
 /* Menu Button */
- 
-
 /* Close Button */
- 
-
 /* Menu */
- 
- 
 /* slogan css */
 
-#agilehome {}
-
+#agilehome {} 
 #vid {
     object-fit: cover;
     width: 100%;
     height: 500px;
 }
-
 .col-md-12 {
     padding: 0px;
     margin: 0px;
 }
-
 .overlay-desc {
     background: rgba(0, 0, 0, 0);
     position: absolute;
@@ -924,17 +689,15 @@ ul.callbacks_tabs {
     display: flex;
     align-items: center;
     justify-content: center;
-        color: #fff;
+    color: #fff;
     font-family: 'Nobile', sans-serif;
     font-size: 9vw;
-    text-align: center;   
+    text-align: center;
     color: #fff;
     font-family: 'Nobile', sans-serif;
     font-size: 9vw;
     text-align: center;
 }
-
-
 /*about css section */
 
 #about {
@@ -943,8 +706,6 @@ ul.callbacks_tabs {
     margin-top: 220px;
     padding-top: 295px;
 }
-
-
 /*menu partial css*/
 
 #menu .agiletopbar {
@@ -954,26 +715,22 @@ ul.callbacks_tabs {
     z-index: 1001;
     top: 0px;
 }
-
-
-#menu-logo{
+#menu-logo {
     font-size: 30px;
     padding-left: 11px;
 }
-
-@media screen and (max-width: 425px){
-	   #menu-logo {
-	    font-size: 18px;
-	    padding-left: 5px;
+@media only screen and (max-width: 736px) {
+    #menu-logo {
+        font-size: 18px;
+       // padding-left: 5px;
     }
 }
-
 /*foot partial css*/
 
 #foodMenu {
     width: 100%;
     height: 500px;
-     background-image: url("/assets/pizza_home_bg.webp");
+    background-image: url("/assets/pizza_home_bg.webp");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -981,14 +738,10 @@ ul.callbacks_tabs {
     background-size: cover;
     margin-top: 20px;
     padding-top: 95px;
-    
 }
-
 #foodMenu .col-md-6 {
     font-size: 32px;
 }
-
-
 /*contact parital*/
 
 #contact {
@@ -998,9 +751,3 @@ ul.callbacks_tabs {
     font-size: 20px;
     opacity: .8;
 }
-
-
-
-
-
-

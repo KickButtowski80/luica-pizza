@@ -1,6 +1,6 @@
 // https://en.wikipedia.org/wiki/Immediately-invoked_function_expression
 // https://css-tricks.com/snippets/jquery/smooth-scrolling/
-(function(){
+$(document).ready(function(){
     window.addEventListener('click', function(event) {
        var $root = $('html, body');
         $('.scroll').click( function(e) {
@@ -16,4 +16,4 @@
              }
         });
     }, { passive: true });
- })();
+ });
