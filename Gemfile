@@ -62,4 +62,5 @@ gem 'lazyload-rails', '~> 0.3.1'
 #configure rails cache-store
 # it is up there and needed for down .gem 'rack-cache'
 gem 'dalli', '~> 2.7', '>= 2.7.6'
+gem "memcachier"
 gem 'kgio'
