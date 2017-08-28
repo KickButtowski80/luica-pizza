@@ -58,7 +58,9 @@ Rails.application.configure do
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
-
+  config.cache_store = :dalli_store, 'cache-1.example.com', 'cache-2.example.com:11211:2',
+  { :namespace => NAME_OF_RAILS_APP, :expires_in => 1.day, :compress => true }
+  
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
 

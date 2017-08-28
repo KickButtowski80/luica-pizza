@@ -25,7 +25,6 @@ module Workspace
     config.active_record.raise_in_transactional_callbacks = true
     #config.serve_static_assets = true 
     config.assets.paths << "#{Rails.root}/public/videos"
-    #config.middleware.use Rack::Deflater
-  
+    #config.middleware.use Rack::Deflater 
   end
 end

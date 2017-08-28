@@ -61,6 +61,7 @@ GEM
     config (1.4.0)
       activesupport (>= 3.0)
       deep_merge (~> 1.1.1)
+    dalli (2.7.6)
     debug_inspector (0.0.3)
     deep_merge (1.1.1)
     erubis (2.7.0)
@@ -83,6 +84,7 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.6)
+    kgio (2.11.0)
     lazyload-rails (0.3.1)
       nokogiri (~> 1.5)
     loofah (2.0.3)
@@ -185,11 +187,13 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   config
+  dalli (~> 2.7, >= 2.7.6)
   font-awesome-rails
   font-awesome-sass (~> 4.7.0)
   heroku-deflater
   jbuilder (~> 2.0)
   jquery-rails
+  kgio
   lazyload-rails (~> 0.3.1)
   pg (~> 0.18.4)
   puma
