@@ -60,6 +60,17 @@ Rails.application.configure do
   # config.cache_store = :mem_cache_store
   config.cache_store = :dalli_store, 'cache-1.example.com', 'cache-2.example.com:11211:2',
   { :namespace => Workspace, :expires_in => 1.day, :compress => true }
+  client = Dalli::Client.new((ENV["MEMCACHIER_SERVERS"] || "").split(","),
+                           :username => ENV["MEMCACHIER_USERNAME"],
+                           :password => ENV["MEMCACHIER_PASSWORD"],
+                           :failover => true,
+                           :socket_timeout => 1.5,
+                           :socket_failure_delay => 0.2,
+                           :value_max_bytes => 10485760)
+  config.action_dispatch.rack_cache = {
+    :metastore    => client,
+    :entitystore  => client
+  }
   
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
@@ -86,5 +97,5 @@ Rails.application.configure do
   config.serve_static_files = true 
   config.perform_caching = true
   config.assets.compress = true
-  config.static_cache_control = "public, s-maxage=31536000, maxage=15552000"
+  config.static_cache_control = "public, max-age=2592000"
 end
