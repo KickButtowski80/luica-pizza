@@ -92,9 +92,9 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   
-  config.serve_static_assets = true
-  #rename to the below 
-  #config.serve_static_files = true 
+  #rename to the below  config.serve_static_assets = true
+  
+  config.serve_static_files = true 
   config.static_cache_control = "public, max-age=2592000"
   config.perform_caching = true
   config.assets.compress = true
