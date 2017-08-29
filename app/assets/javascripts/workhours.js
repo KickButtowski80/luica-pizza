@@ -1,4 +1,4 @@
-$(document).on("turbolinks:load",function(){
+$(document).ready(function(){
         var d = new Date();
         var dayInNumber = d.getDay();
         var myDiv = document.getElementById("myDiv");
