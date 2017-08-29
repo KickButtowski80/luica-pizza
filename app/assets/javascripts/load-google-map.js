@@ -1,5 +1,5 @@
-$(document).ready(function(){ 
-        new Maplace({
+$(document).ready(function(){
+       new Maplace({
         show_markers: true,
         locations: [{
             lat: 34.027048,
@@ -11,5 +11,4 @@ $(document).ready(function(){
             zoom: 19
         }]
     }).Load();
-   
 });

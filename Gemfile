@@ -65,3 +65,7 @@ gem 'lazyload-rails', '~> 0.3.1'
 gem 'dalli', '~> 2.7', '>= 2.7.6'
 gem "memcachier"
 gem 'kgio' 
+
+gem "typedjs-rails", "~> 1.0.4"
+
+gem 'turbolinks', '~> 5.0.0'
