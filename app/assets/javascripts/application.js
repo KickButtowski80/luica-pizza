@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require jquery3
-//= require jquery.turbolinks
 //= require jquery_ujs 
 //= require lib/typed
 //= require typed-implementation
