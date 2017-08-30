@@ -10,7 +10,7 @@
 
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
-$(document).ready(function(){
+$(document).on('turbolinks:load', function(){
   
   'use strict';
   

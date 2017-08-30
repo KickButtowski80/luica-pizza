@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).on('turbolinks:load', function(){
        new Maplace({
         show_markers: true,
         locations: [{
