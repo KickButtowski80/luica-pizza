@@ -68,5 +68,5 @@ gem 'kgio'
 
 gem "typedjs-rails", "~> 1.0.4"
 
-#gem 'turbolinks', '~> 5.0', '>= 5.0.1'
+gem 'turbolinks', '~> 5.0', '>= 5.0.1'
 #gem 'jquery-turbolinks'
