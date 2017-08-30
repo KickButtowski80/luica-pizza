@@ -14,7 +14,6 @@
 //= require jquery_ujs 
 //= require jquery3
 //= require lib/typed
-//= require typed-implementation 
 //= require_tree .
 //= require bootstrap-sprockets
 
