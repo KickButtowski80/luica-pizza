@@ -3,7 +3,7 @@
 <head>
   
   <title>Workspace</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true%>
+  
  
   
   <%= csrf_meta_tags %>
@@ -18,6 +18,7 @@
   <%= render template: 'menus/lunch/index'  if controller.controller_name == 'lunch'%>
   <%= render template: 'menus/dinner/index' if controller.controller_name == 'dinner'%>
   <%= render 'shared/contact' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true%>
   <%= javascript_include_tag 'application' , 'data-turbolinks-track' => true,:cache => true , :recursive => true%>
   <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB_bhcuJbmnYHQViWNhZopT9QHxWcUjpT0&callback=initMap', :cache => true , :defer=> "defer" %>
   
