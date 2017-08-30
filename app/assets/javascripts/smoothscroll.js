@@ -1,6 +1,6 @@
 // https://en.wikipedia.org/wiki/Immediately-invoked_function_expression
 // https://css-tricks.com/snippets/jquery/smooth-scrolling/
-$(document).ready(function(){
+$(document).on('turbolinks:load', function(){
        var $root = $('html, body');
         $('.scroll').click( function(e) {
              var target = this.hash;
