@@ -74,34 +74,34 @@ a:hover {
 /*-- Index-Page-Styling --*/
 /*-- Top-Bar --*/
 
-.agiletopbar {
+.navbar-pos {
     height: 80px;
 }
-.wthreenavigation {
+._3navbar{
     width: 5%;
     float: left;
     height: 80px;
 }
-.agileinfomenu {
+.menu-len {
     width: 10%;
     float: left;
     height: 80px;
     border-right: 1px solid #777;
 }
-.agileinfomenu p {
+.menu-len p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-top: 29px;
     padding-left: 35px;
     height: 100%;
 }
-.aitslogow3ls {
+.logo-len {
     width: 70%;
     float: left;
     height: 80px;
     text-align: center;
 }
-.agilelogo {
+.logo {
     position: absolute;
     left: 43.5%;
     top: 5px;
@@ -114,30 +114,30 @@ a:hover {
     border: 1px solid #FFF;
     border-width: thick;
 }
-.aitslogow3ls a {
+.logo-len a {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 45px;
     color: #FFF;
 }
-.wthreecontact {
+.contact-navsec {
     width: 15%;
     float: left;
     height: 80px;
     text-align: center;
     border-left: 1px solid #777;
 }
-.wthreecontact p {
+.contact-navsec p {
     padding-top: 27px;
 }
-.wthreecontact a {
+.contact-navsec a {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #000;
 }
-.wthreecontact a:hover {
+.contact-navsec a:hover {
     color: #ec952b;
 }
-.wthreecontact a i {
+.contact-navsec a i {
     margin-right: 5px;
 }
 /*-- //Top-Bar --*/
@@ -217,24 +217,24 @@ ul.callbacks_tabs {
 /*-- Responsive-Code --*/
 
 @media screen and (max-width: 1080px) {
-    .agileinfomenu p {
+    .menu-len p {
         font-size: 18px;
         padding-top: 31px;
         padding-left: 25px;
     }
-    .wthreecontact p {
+    .contact-navsec p {
         padding-top: 30px;
     }
-    .wthreecontact a {
+    .contact-navsec a {
         font-size: 17px;
     }
-    .wthreecontact a i {
+    .contact-navsec a i {
         margin-right: 0;
     }
-    .aitslogow3ls a {
+    .logo-len a {
         font-size: 35px;
     }
-    .agilelogo {
+    .logo {
         left: 41.5%;
         width: 175px;
         height: 175px;
@@ -246,40 +246,40 @@ ul.callbacks_tabs {
     }
 }
 @media screen and (max-width: 966px) {
-    .wthreecontact a {
+    .contact-navsec a {
         font-size: 16px;
     }
 }
 @media screen and (max-width: 900px) {
-    .agileinfomenu {
+    .menu-len {
         width: 15%;
     }
-    .agileinfomenu p {
+    .menu-len p {
         padding-left: 45px;
     }
-    .aitslogow3ls {
+    .logo-len {
         width: 60%;
     }
-    .agilelogo {
+    .logo {
         width: 160px;
         height: 160px;
     }
-    .aitslogow3ls a {
+    .logo-len a {
         font-size: 33px;
     }
-    .wthreecontact {
+    .contact-navsec {
         width: 20%;
     }
-    .agilelogo {
+    .logo {
         left: 40%;
     }
 }
 @media screen and (max-width: 736px) {
-    .agiletopbar,
+    .navbar-pos,
     .wthreenavigation,
-    .agileinfomenu,
-    .aitslogow3ls,
-    .wthreecontact {
+    .menu-len,
+    .logo-len,
+    .contact-navsec {
         height: 65px;
     }
     .menu-button {
@@ -295,17 +295,17 @@ ul.callbacks_tabs {
     .icon-list a span {
         font-size: 14px;
     }
-    .agileinfomenu p {
+    .menu-len p {
         padding-top: 21px;
         padding-left: 32px;
     }
-    .agilelogo {
+    .logo {
         width: 140px;
         height: 140px;
         padding-top: 20px;
         top: 0;
     }
-    .wthreecontact p {
+    .contact-navsec p {
         padding-top: 23px;
     }
 }
@@ -313,128 +313,128 @@ ul.callbacks_tabs {
     .icon-list a {
         padding: 9px;
     }
-    .wthreecontact a {
+    .contact-navsec a {
         font-size: 15px;
     }
 }
 @media screen and (max-width: 640px) {
-    .agileinfomenu p {
+    .menu-len p {
         padding-left: 27px;
     }
 }
 @media screen and (max-width: 603px) {
-    .agileinfomenu {
+    .menu-len {
         width: 20%;
     }
-    .agileinfomenu p {
+    .menu-len p {
         padding-left: 35px;
     }
-    .aitslogow3ls {
+    .logo-len {
         width: 50%;
     }
-    .agilelogo {
+    .logo {
         left: 38%;
     }
-    .wthreecontact {
+    .contact-navsec {
         width: 25%;
     }
 }
 @media screen and (max-width: 568px) {
-    .agilelogo {
+    .logo {
         width: 125px;
         height: 125px;
         left: 39%;
     }
-    .aitslogow3ls a {
+    .logo-len a {
         font-size: 28px;
     }
 }
 @media screen and (max-width: 480px) {
-    .agileinfomenu {
+    .menu-len {
         width: 23%;
     }
-    .aitslogow3ls {
+    .logo-len {
         width: 44%;
     }
-    .agilelogo {
+    .logo {
         width: 110px;
         height: 110px;
         left: 38.5%;
     }
-    .aitslogow3ls a {
+    .logo-len a {
         font-size: 25px;
     }
-    .wthreecontact {
+    .contact-navsec {
         width: 28%;
     }
 }
 @media screen and (max-width: 414px) {
-    .agiletopbar,
+    .navbar-pos,
     .wthreenavigation,
-    .agileinfomenu,
-    .aitslogow3ls,
-    .wthreecontact {
+    .menu-len,
+    .logo-len,
+    .contact-navsec {
         height: 50px;
     }
-    .wthreenavigation {
+    ._3navbar{
         width: 0;
     }
-    .agileinfomenu {
+    .menu-len {
         width: 30%;
     }
-    .agileinfomenu p {
+    .menu-len p {
         padding-left: 46px;
         font-size: 16px;
         padding-top: 16px;
     }
-    .aitslogow3ls {
+    .logo-len {
         width: 40%;
     }
-    .agilelogo {
+    .logo {
         left: 36.5%;
     }
-    .wthreecontact {
+    .contact-navsec {
         width: 30%;
     }
-    .wthreecontact p {
+    .contact-navsec p {
         padding-top: 16px;
     }
-    .wthreecontact a {
+    .contact-navsec a {
         font-size: 14px;
     }
 }
 @media screen and (max-width: 384px) {
-    .agilelogo {
+    .logo {
         left: 35.5%;
     }
-    .wthreecontact a {
+    .contact-navsec a {
         font-size: 13px;
     }
 }
 @media screen and (max-width: 375px) {
-    .agilelogo {
+    .logo {
         left: 35%;
     }
 }
 @media screen and (max-width: 360px) {
-    .agilelogo {
+    .logo {
         left: 34%;
     }
-    .wthreecontact a {
+    .contact-navsec a {
         font-size: 12px;
     }
 }
 @media screen and (max-width: 320px) {
-    .agileinfomenu {
+    .menu-len {
         width: 35%;
     }
-    .aitslogow3ls {
+    .logo-len {
         width: 30%;
     }
-    .aitslogow3ls a {
+    .logo-len a {
         font-size: 21px;
     }
-    .agilelogo {
+    .logo {
         left: 36.15%;
         width: 90px;
         height: 90px;
@@ -442,23 +442,12 @@ ul.callbacks_tabs {
         border-width: 3px;
         top: -3px;
     }
-    .wthreecontact {
+    .contact-navsec {
         width: 35%;
     }
 }
 /*-- //Responsive-Code --*/
 
-/* menu *
-.menu-wrap a {
-    color: #b8b7ad;
-}
-.menu-wrap a:hover,
-.menu-wrap a:focus {
-    color: #FFF;
-}
-.menu-wrap a.active {
-    color: #FFF;
-}
 /* Menu Button */
 
 .menu-button {
@@ -704,7 +693,7 @@ ul.callbacks_tabs {
 }
 /*menu partial css*/
 
-#menu .agiletopbar {
+#menu .navbar-pos {
     background: #fff;
     width: 100%;
     position: fixed;
@@ -712,8 +701,7 @@ ul.callbacks_tabs {
     top: 0px;
 }
 #menu-logo {
-    font-size: 30px;
-    padding-left: 11px;
+    font-size: 30px; 
 }
 @media only screen and (max-width: 736px) {
     #menu-logo {
