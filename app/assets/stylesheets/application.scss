@@ -658,7 +658,11 @@ ul.callbacks_tabs {
 /* Menu */
 /* slogan css */
 
-#agilehome {} 
+/* slogan */
+
+#slogan{
+     //padding-top: 225px;
+}
 #vid {
     object-fit: cover;
     width: 100%;
@@ -686,6 +690,8 @@ ul.callbacks_tabs {
     text-shadow: 7px 12px 20px #e4d61c, 0 0 5px #0000FF;
 
 }
+
+
 /*about css section */
 
 #about {
@@ -694,6 +700,7 @@ ul.callbacks_tabs {
     margin-top: 220px;
     padding-top: 295px;
 }
+
 /*menu partial css*/
 
 #menu .navbar-pos {
@@ -738,3 +745,7 @@ ul.callbacks_tabs {
     font-size: 20px;
     opacity: .8;
 }
+
+
+ 
+
