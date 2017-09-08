@@ -47,7 +47,7 @@ group :development do
 end
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
-#gem 'popper_js', '~> 1.9.9'
+ 
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'config'
 gem "font-awesome-rails"
@@ -68,7 +68,7 @@ gem 'kgio'
  
 
 gem 'turbolinks', '~> 5.0', '>= 5.0.1'
-#gem 'jquery-turbolinks'
+gem 'popper_js' 
 
 
 
