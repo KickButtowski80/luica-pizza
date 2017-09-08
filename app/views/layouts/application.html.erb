@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
   <title>Workspace</title>
   <%= stylesheet_link_tag    'application', 'data-turbolinks-track' => true%>
-  
-  
- 
-  
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
-  
+  <%= javascript_include_tag 'application' , 'data-turbolinks-track' => true,:cache => true , :defer => "defer"%>
+  <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB_bhcuJbmnYHQViWNhZopT9QHxWcUjpT0', 'data-turbolinks-track' => true,:cache => true , :defer=> "defer" %>
 </head>
 <body data-spy="scroll" data-target=".icon-list" data-offset="450">
   <%= render 'shared/menu'  %>
@@ -20,7 +16,6 @@
   <%= render template: 'menus/lunch/index'  if controller.controller_name == 'lunch'%>
   <%= render template: 'menus/dinner/index' if controller.controller_name == 'dinner'%>
   <%= render 'shared/contact' %>
-  <%= javascript_include_tag 'application' , 'data-turbolinks-track' => true,:cache => true , :defer => "defer"%>
-  <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB_bhcuJbmnYHQViWNhZopT9QHxWcUjpT0', 'data-turbolinks-track' => true,:cache => true , :defer=> "defer" %>
+
 </body>
 </html>
