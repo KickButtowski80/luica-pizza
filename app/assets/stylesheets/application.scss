@@ -178,44 +178,6 @@ a.callbacks_nav {
 ul.callbacks_tabs {
     display: none;
 }
-/*-- //Slider --*/
-/*-- About --*/
-/*-- //About --*/
-/*-- Stats --*/
-/*-- //Stats --*/
-/*-- Desserts --*/
-/*-- Desserts --*/
-/*-- Portfolio --*/
-/*-- //Tabs-Content --*/
-/*-- Fallback --*/
-/*-- //Fallback --*/
-/*-- Tabs-Styling --*/
-/*-- //Tabs-Styling --*/
-/*-- Tab-Images --*/
-/*-- //Tab-Images --*/
-/*-- //Tabs --*/
-/*-- //Portfolio --*/
-/*-- Chefs --*/
-/*-- //Chefs --*/
-/*-- Feedback --*/
-/*-- //Feedback --*/
-/*-- Newsletter --*/
-/*-- //Newsletter --*/
-/*-- Contact --*/
-/*-- //Contact --*/
-/*-- Map --*/
-/*-- //Map --*/
-/*-- Footer --*/
-/*-- Footer-Social-Icons --*/
-/*-- Footer-Social-Icons --*/
-/*-- //Copyright --*/
-/*-- //Footer --*/
-/*-- Text-Selection-Background-Color --
-
-	/*-- Works on common browsers --*/
-/*-- //Text-Selection-Background-Color --*/
-/*-- //Index-Page-Styling --*/
-/*-- Responsive-Code --*/
 
 
 
@@ -386,7 +348,7 @@ ul.callbacks_tabs {
 /* slogan */
 
 #slogan{
-     margin-top: 115px;
+     //margin-top: 115px;
 }
 #vid {
     object-fit: cover;
@@ -466,86 +428,9 @@ ul.callbacks_tabs {
 
 // media qeruies
 
-@media screen and (max-width: 736px) {
-    .menu-button {
-        //it was 10
-        margin: 6px;
-    }
-    .menu-wrap {
-        width: 250px;
-        padding: 10px 0 0 10px;
-    }
-    .icon-list a {
-        padding: 10px;
-    }
-    .icon-list a span {
-        font-size: 14px;
-    }
-}
-@media screen and (max-width: 667px) {
-    .icon-list a {
-        padding: 9px;
-    }
-}
-@media screen and (max-width: 640px) {
-    .menu-wrap {
-        width: 200px;
-    }
-    .icon-list a {
-        padding: 8px;
-    }
-}
-@media screen and (max-width: 568px) {
-    .icon-list a {
-        padding: 6px;
-    }
-}
-@media screen and (max-width: 480px) {
-    .menu-button {
-        margin: 12px;
-        width: 2em;
-        height: 2em;
-    }
-    .menu-wrap {
-        width: 175px;
-        z-index: 99999;
-    }
-}
-@media screen and (max-width: 414px) {
-    .menu-button {
-        margin: 5px;
-    }
-}
  
-@media only screen and (max-width: 736px) {
-    #menu-logo {
-        font-size: 18px;
-       // padding-left: 5px;
-    }
-}
+@media screen and (max-width: 568px) {
 
-
-@media screen and (max-width: 320px) {
-    .menu-len {
-        width: 35%;
-    }
-    .logo-len {
-        width: 30%;
-    }
-    .logo-len a {
-        font-size: 21px;
-    }
-    .logo {
-        left: 36.15%;
-        width: 90px;
-        height: 90px;
-        padding-top: 15px;
-        border-width: 3px;
-        top: -3px;
-    }
-    .contact-navsec {
-        width: 35%;
-    }
 }
 
 @media screen and (max-width: 1080px) {
@@ -606,6 +491,7 @@ ul.callbacks_tabs {
         left: 40%;
     }
 }
+
 @media screen and (max-width: 736px) {
     .navbar-pos,
     .wthreenavigation,
@@ -640,8 +526,13 @@ ul.callbacks_tabs {
     .contact-navsec p {
         padding-top: 23px;
     }
+    #menu-logo {
+        font-size: 18px;
+       // padding-left: 5px;
+    }
 }
-@media screen and (max-width: 667px) {
+
+@media screen and (max-width: 667px) { 
     .icon-list a {
         padding: 9px;
     }
@@ -650,6 +541,12 @@ ul.callbacks_tabs {
     }
 }
 @media screen and (max-width: 640px) {
+   .menu-wrap {
+        width: 200px;
+    }
+    .icon-list a {
+        padding: 8px;
+    }
     .menu-len p {
         padding-left: 27px;
     }
@@ -672,6 +569,9 @@ ul.callbacks_tabs {
     }
 }
 @media screen and (max-width: 568px) {
+    .icon-list a {
+        padding: 6px;
+    }
     .logo {
         width: 125px;
         height: 125px;
@@ -682,6 +582,15 @@ ul.callbacks_tabs {
     }
 }
 @media screen and (max-width: 480px) {
+    .menu-button {
+        margin: 12px;
+        width: 2em;
+        height: 2em;
+    }
+    .menu-wrap {
+        width: 175px;
+        z-index: 99999;
+    }
     .menu-len {
         width: 23%;
     }
@@ -719,6 +628,10 @@ ul.callbacks_tabs {
         font-size: 16px;
         padding-top: 16px;
     }
+    
+    .menu-button {
+        margin: 5px;
+    }
     .logo-len {
         width: 40%;
     }
@@ -754,5 +667,28 @@ ul.callbacks_tabs {
     }
     .contact-navsec a {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .menu-len {
+        width: 35%;
+    }
+    .logo-len {
+        width: 30%;
+    }
+    .logo-len a {
+        font-size: 21px;
+    }
+    .logo {
+        left: 36.15%;
+        width: 90px;
+        height: 90px;
+        padding-top: 15px;
+        border-width: 3px;
+        top: -3px;
+    }
+    .contact-navsec {
+        width: 35%;
     }
 }
