@@ -23,9 +23,7 @@ body a {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     text-decoration: none;
-}
-body a:hover {
-    text-decoration: none;
+    color: #f4ad42;
 }
 body a:focus,
 a:hover {
@@ -348,7 +346,7 @@ ul.callbacks_tabs {
 /* slogan */
 
 #slogan{
-     //margin-top: 115px;
+   
 }
 #vid {
     object-fit: cover;
@@ -427,10 +425,10 @@ ul.callbacks_tabs {
 }
 
 // media qeruies
-
- 
-@media screen and (max-width: 568px) {
-
+@media screen and(max-width: 1440px){
+    #slogan{
+     padding-top: 235px;
+    }
 }
 
 @media screen and (max-width: 1080px) {
@@ -455,6 +453,10 @@ ul.callbacks_tabs {
         left: 41.5%;
         width: 175px;
         height: 175px;
+    }
+    
+    #slogan{
+      padding-top: 80px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -491,7 +493,11 @@ ul.callbacks_tabs {
         left: 40%;
     }
 }
-
+@media screen and (max-width: 768px) {
+    #slogan {
+        padding: 80px;
+    }
+}
 @media screen and (max-width: 736px) {
     .navbar-pos,
     .wthreenavigation,
@@ -609,6 +615,15 @@ ul.callbacks_tabs {
         width: 28%;
     }
 }
+
+ 
+@media screen and (max-width: 425px) {
+  #slogan{
+     padding-top: 64px;
+  }
+}
+
+
 @media screen and (max-width: 414px) {
     .navbar-pos,
     .wthreenavigation,
@@ -660,6 +675,10 @@ ul.callbacks_tabs {
     .logo {
         left: 35%;
     }
+    
+    #slogan{
+        padding: 51px;
+    }
 }
 @media screen and (max-width: 360px) {
     .logo {
@@ -690,5 +709,9 @@ ul.callbacks_tabs {
     }
     .contact-navsec {
         width: 35%;
+    }
+    
+    #slogan{
+       padding-top: 50px;
     }
 }
