@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'slogan' => 'welcome#slogan'
   get 'about' => 'welcome#about'
   
-    resources :menus, only: [:index]
+  resources :menus, only: [:index]
   
   namespace :menus do
     resources :lunch,  only: [:index]

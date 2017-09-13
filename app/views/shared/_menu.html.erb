@@ -10,13 +10,22 @@
     			           <span style="font-size:1.1em">Lucia's Pizza</span> 
     			    </a> 
     				<div id='menu-link' class="icon-list">
-    				    <a  class="scroll" href="<%= slogan_path(anchor: 'slogan')%>"><i class="fa fa-home"></i><span>Home</span></a>
+    				    <a  class="scroll" href="<%= slogan_path(anchor: 'slogan')%>">
+    				        <i class="fa fa-home"></i>
+    				        <span>Home</span>
+    				    </a>
     					<a  class="scroll" href="<%= about_path(anchor: 'about')%>">
     					    <i class="fa fa-info" style="padding-left: 3px;"></i>
     					    <span style="padding-left: 3px;">About</span>
-    					 </a>
-    					<a  class="scroll" href="<%=menus_path(anchor: 'foodMenu') %>"><i class="fa fa-cutlery"></i><span>Food</span></a>
-    					<a  class="scroll" href="#contact"><i class="fa fa-phone"></i><span>Contact</span></a>
+    					</a>
+    					<a  class="scroll" href="<%= menus_path(anchor: 'foodMenu')%>">
+    					    <i class="fa fa-cutlery"></i>
+    					    <span>Food</span>
+    					</a>
+    					<a  class="scroll" href="#contact">
+    					    <i class="fa fa-phone"></i>
+    					    <span>Contact</span>
+    					</a>
     				</div> 
     			</nav>
     			<button class="close-button" id="close-button">Close Menu</button>
