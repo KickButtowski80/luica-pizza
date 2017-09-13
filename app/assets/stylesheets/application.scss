@@ -373,9 +373,27 @@ ul.callbacks_tabs {
     font-size: 9vw;
     text-align: center;
     text-shadow: 7px 12px 20px #e4d61c, 0 0 5px #0000FF;
+    
 
 }
 
+.overlay-desc h3{
+    line-height: 33px;
+}
+
+.overlay-desc  h4{
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+}
+
+.btn-danger{
+    border-radius: 85px;
+    font-size: 2rem;
+    background-color: red;
+    color: beige;
+    padding: 6px 12px;
+}
 
 /*about css section */
 
@@ -384,6 +402,7 @@ ul.callbacks_tabs {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #12dbf7;
 }
 
 /*menu partial css*/
@@ -401,20 +420,34 @@ ul.callbacks_tabs {
 
 /*foot partial css*/
 
-#foodMenu { 
-    height: 500px;
-    background-image: url("/assets/pizza_home_bg.webp");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    margin-top: 20px;
-    padding-top: 95px;
-}
-#foodMenu .col-md-6 {
-    font-size: 32px;
-}
+      #foodMenu{
+        width: 100%;
+        height:500px;
+        background-image: url("/assets/pizza_home_bg.webp");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-top: 20px;
+        padding-top: 95px; 
+    }
+    
+    .col-md-6 {
+        font-size: 32px;
+    }
+    #lunch-logo{
+    width:280px;
+    height:350px;
+    display:block;
+    margin:auto;
+    }
+    #dinner-logo{
+        width:280px;
+        height:350px;
+        display:block;
+        margin:auto;
+    }
 /*contact parital*/
 
 #contact {
@@ -675,6 +708,11 @@ ul.callbacks_tabs {
   #slogan{
      padding-top: 64px;
   }
+  #foodMenu {
+     
+    height: 860px;
+     
+   }
 }
 
 

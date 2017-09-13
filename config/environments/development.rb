@@ -47,7 +47,6 @@ Rails.application.configure do
   
   config.action_controller.perform_caching = true
   config.assets.css_compressor = :sass
-  
-  
- config.assets.js_compressor = :uglifier
+  config.assets.js_compressor = :uglifier
+ 
 end

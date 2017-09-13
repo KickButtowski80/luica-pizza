@@ -10,7 +10,7 @@
  * http://www.codrops.com
  */
  
-$(document).ready(function(){
+$(document).on('turbolinks:load', function() {
 	
 	var bodyEl = document.body,
 		content = document.querySelector( '.content-wrap' ),
@@ -32,14 +32,15 @@ function initEvents() {
 		if (closebtn) {
 			closebtn.addEventListener('click', toggleMenu);
 		}
-
-		// close the menu element if the target itÂ´s not the menu element or one of its descendants..
-		content.addEventListener( 'click', function(ev) {
-			var target = ev.target;
-			if( isOpen && target !== openbtn ) {
-				toggleMenu();
-			}
-		} );
+  //      //if(content){
+		// // close the menu element if the target itÂ´s not the menu element or one of its descendants..
+		// content.addEventListener( 'click', function(ev) {
+		// 	var target = ev.target;
+		// 	if( isOpen && target !== openbtn ) {
+		// 		toggleMenu();
+		// 	}
+		// } );
+  //    //  } 
 	}
 
 
