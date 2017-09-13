@@ -349,9 +349,13 @@ ul.callbacks_tabs {
    
 }
 #vid {
+    // display: block;
+    // position: absolute;
+    // top: 0px;
+    // text-align: center;
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 100v;
 }
 .col-md-12 {
     padding: 0px;
