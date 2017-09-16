@@ -802,14 +802,18 @@ section {
     .contact-navsec {
         width: 35%;
     }
-    #about{
-            height: 95vh;
-    }
+
     #jumbo-about h1{
          font-size: 2rem;
     }
     #jumbo-about h2{
         font-size: 1.5rem;
+    }
+    
+}
+@media screen and (min-width: 320px) and (max-width: 374px){
+    #about{
+            height: 95vh;
     }
     
 }
