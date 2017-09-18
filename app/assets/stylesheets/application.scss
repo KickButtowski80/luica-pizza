@@ -402,13 +402,13 @@ section {
 /*about css section */
 
 #about {
-    background-image: url("/assets/white-bg.webp");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    background-size: cover; 
-    height: 164vh;
+    // background-image: url("/assets/white-bg.webp");
+    // background-attachment: fixed;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // -webkit-background-size: cover;
+    // background-size: cover; 
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -580,7 +580,7 @@ section {
 }
 @media screen and (max-width: 768px) {
  #about{
-     height: 145vh;
+     //height: 145vh;
      //87vh
  }
 }
@@ -709,8 +709,7 @@ section {
    }
    
    #about{
-       height: 165vh;
-       //122vh
+     padding-top: 110px;
    }
 
 }
@@ -773,7 +772,7 @@ section {
 }   
 @media screen and (max-width: 375px) {
     #about{
-     height: 130vh;
+     //height: 130vh;
     }    
 
 }
@@ -816,7 +815,7 @@ section {
     }
     
      #about{
-            height: 770px;
+            // height: 770px;
     }
     
 }
