@@ -579,7 +579,8 @@ section {
 }
 @media screen and (max-width: 768px) {
  #about{
-     height: 87vh;
+     height: 145vh;
+     //87vh
  }
 }
 @media screen and (max-width: 735px) {
@@ -707,7 +708,8 @@ section {
    }
    
    #about{
-       height: 122vh;
+       height: 165vh;
+       //122vh
    }
 
 }
@@ -806,7 +808,7 @@ section {
     #jumbo-about h1{
          font-size: 2rem;
     }
-   h2{
+    #jumbo-about h2{
         font-size: 1.5rem;
     }
     
