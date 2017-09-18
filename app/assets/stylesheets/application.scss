@@ -316,6 +316,9 @@ ul.callbacks_tabs {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
+.menu-wrap{
+    overflow: scroll;
+}
 .show-menu .menu-wrap {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
