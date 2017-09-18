@@ -12,6 +12,7 @@
 </head>
 <body data-spy="scroll" data-target=".icon-list" data-offset="450">
   <%= render 'shared/menu'  %>
+  <div class="col-md-12" style="height:80px;color:red;"></div>
   <%= render template: '/welcome/slogan'    if controller.controller_name == 'welcome'%>
   <%= render template: '/welcome/about'     if controller.controller_name =='welcome'%>
   <%= render template: '/menus/index'       if controller.controller_name == 'welcome' || controller.controller_name == 'menus'%>

@@ -402,13 +402,14 @@ section {
 /*about css section */
 
 #about {
-    // background-image: url("/assets/white-bg.webp");
-    // background-attachment: fixed;
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // -webkit-background-size: cover;
-    // background-size: cover; 
-    height: 100vh;
+    background-image: url("/assets/white-bg.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover; 
+    //100vh
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
