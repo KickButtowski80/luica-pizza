@@ -317,7 +317,7 @@ ul.callbacks_tabs {
     font-size: 16px;
 }
 .menu-wrap{
-    overflow: scroll;
+    overflow: auto;
 }
 .show-menu .menu-wrap {
     -webkit-transform: translate3d(0, 0, 0);
