@@ -771,9 +771,9 @@ section {
         left: 35%;
     }
 }   
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 321px) and (max-width: 376px) {
     #about{
-     //height: 130vh;
+     height: 630px;
     }    
 
 }
@@ -816,7 +816,7 @@ section {
     }
     
      #about{
-         height: 670px
+         height: 680px
     }
     
 }
