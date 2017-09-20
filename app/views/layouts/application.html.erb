@@ -19,7 +19,9 @@
   <%= render template: 'menus/lunch/index'  if controller.controller_name == 'lunch'%>
   <%= render template: 'menus/dinner/index' if controller.controller_name == 'dinner'%>
   <%= render 'shared/contact' %>
-  
+  <script>
+    new WOW().init();
+  </script>
   
 </body>
 </html>
