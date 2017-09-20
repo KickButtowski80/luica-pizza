@@ -1,7 +1,8 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+/*@import "bootstrap-sprockets";
+@import "bootstrap";*/
+@import 'bootstrap-custom';
+@import "font-awesome";
 
-/*@import 'bootstrap-custom';*/
 body {
     padding: 0;
     margin: 0;
