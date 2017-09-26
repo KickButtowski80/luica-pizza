@@ -12,4 +12,4 @@ Rails.application.config.assets.version = '1.0'
 # # Rails.application.config.assets.precompile += %w( *.js)
 #Rails.application.config.assets.precompile += %w( classie.js  main.js smoothscroll.js workhours.js)
  
- Rails.application.config.assets.precompile += %w( media-queries.scss )
+ #Rails.application.config.assets.precompile += %w( media-queries.scss )
