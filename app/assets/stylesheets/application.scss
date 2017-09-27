@@ -1,7 +1,7 @@
 /*@import "bootstrap-sprockets";
 @import "bootstrap";*/
 @import 'bootstrap-custom';
-@import 'media-queries';
+
 @import "font-awesome";
  
 /*-- Index-Page-Styling --*/
@@ -374,3 +374,5 @@ font-size: 30px;
     font-size: 20px;
     opacity: .8;
 }
+
+@import 'media-queries';
