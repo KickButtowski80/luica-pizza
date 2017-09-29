@@ -1,7 +1,6 @@
 /*@import "bootstrap-sprockets";
 @import "bootstrap";*/
 @import 'bootstrap-custom';
-
 @import "font-awesome";
  
 /*-- Index-Page-Styling --*/
@@ -73,6 +72,8 @@
 .contact-navsec a i {
     margin-right: 5px;
 }
+
+
 /*-- //Top-Bar --*/
 /*-- Slider --*/
 
@@ -368,11 +369,15 @@ font-size: 30px;
 /*contact parital*/
 
 #contact {
-    margin-top: 20px;
+    margin-top: 0px;
     padding-top: 95px;
     color: black;
     font-size: 20px;
     opacity: .8;
+}
+
+#contact h1{
+   padding-top: 2vh;
 }
 
 @import 'media-queries';
