@@ -5,7 +5,14 @@
  
 /*-- Index-Page-Styling --*/
 /*-- Top-Bar --*/
+a {
+    color: #ff8707; 
+}
 
+a:hover {
+    color:#f76104;
+    text-decoration: none;
+}
 .navbar-pos {
     height: 80px;
 }
@@ -299,7 +306,7 @@ section {
     font-family: 'Nobile', sans-serif;
     font-size: 9vw;
     text-align: center;
-    text-shadow: 7px 12px 20px #e4d61c, 0 0 5px #0000FF;
+    text-shadow: -19px 20px 10px #343a40, 0 0 5px #1d2124;
 }
 .overlay-desc h3 {
     color: red;

@@ -16,19 +16,18 @@
           <!--  <source src="/assets/pizza_brighter.m4v#t=1,8">-->
           <!--</video>-->
           <!--if u bring back id div has the same style as a below image-->
-          <%= image_tag '/assets/poster.webp', style: 'object-fit: cover;width:100%; height:100vh'%>
+          <%= image_tag '/assets/1.jpg', style: 'object-fit: cover;width:100%; height:100vh'%>
           <div class="overlay-desc">
             <h3>
               <%= image_tag('/assets/slicePizza.png', size:"40x60", style:'width:40px; height:60px;') %> OR NOT 
-              <%= image_tag('/assets/slicePizza.png', size:"40x60", style:'width:40px; height:60px;') %> , THAT IS THE QUESTION?</h3>
-            <!--<br>-->
+              <%= image_tag('/assets/slicePizza.png', size:"40x60", style:'width:40px; height:60px;') %> , THAT IS THE QUESTION?
+            </h3>
             <h4><%= number_to_currency 12.99%> Large with 2 toppings</h4> 
             <!--got rid of bootsrap/buttons temporarly -->
             <%= link_to "tel:3106596171" do %>
               <%= content_tag :button, 'Call Now' , class: 'btn-danger'%>
             <%end%> 
           </div>
-    </div>
-    <div id="about-sec" class="col-sm-12 col-md-12"></div>
+    </div> 
   </div>
 </section>
