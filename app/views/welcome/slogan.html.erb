@@ -22,7 +22,16 @@
               <%= image_tag('/assets/slicePizza.png', size:"40x60", style:'width:40px; height:60px;') %> OR NOT 
               <%= image_tag('/assets/slicePizza.png', size:"40x60", style:'width:40px; height:60px;') %> , THAT IS THE QUESTION?
             </h3>
-            <h4><%= number_to_currency 12.99%> Large with 2 toppings</h4> 
+            
+            <span style="color:red">
+               <div>1 LARGE PIZZA</div>
+               <div>UP TO 3 TOPPINGS - PICK-UP ONLY</div>
+               <div style='font-size: 16px'>
+               <%= number_to_currency 9.95%> + tax
+               mention coupon when ordering  <span style="color:green;font-size:25px"> 1 PIZZA ONLY</span>
+               </div>            
+            </span>
+            
             <!--got rid of bootsrap/buttons temporarly -->
             <%= link_to "tel:3106596171" do %>
               <%= content_tag :button, 'Call Now' , class: 'btn-danger'%>

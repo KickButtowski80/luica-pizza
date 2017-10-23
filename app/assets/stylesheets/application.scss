@@ -39,6 +39,11 @@ a:hover {
     float: left;
     height: 80px;
     text-align: center;
+    a {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 45px;
+    color: #FFA;
+  }
 }
 .logo {
     position: absolute;
@@ -53,11 +58,11 @@ a:hover {
     border: 1px solid #FFF;
     border-width: thick;
 }
-.logo-len a {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 45px;
-    color: #FFF;
-}
+// .logo-len a {
+//     font-family: 'Oleo Script Swash Caps', cursive;
+//     font-size: 45px;
+//     color: #FFF;
+// }
 .contact-navsec {
     width: 15%;
     float: left;
@@ -311,7 +316,7 @@ section {
 .overlay-desc h3 {
     color: red;
     text-align: center;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 .overlay-desc h4 {
     padding-top: 30px;
