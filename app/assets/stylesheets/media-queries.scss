@@ -1,29 +1,6 @@
  
     /* media qeruies*/
-@media screen and (max-width: 1080px) {
-    .menu-len p {
-        font-size: 18px;
-        padding-top: 31px;
-        padding-left: 25px;
-    }
-    .contact-navsec p {
-        padding-top: 30px;
-    }
-    .contact-navsec a {
-        font-size: 17px;
-    }
-    .contact-navsec a i {
-        margin-right: 0;
-    }
-    .logo-len a {
-        font-size: 35px;
-    }
-    .logo {
-        left: 41.5%;
-        width: 175px;
-        height: 175px;
-    }
-}
+
 @media screen and (min-width: 2560px) {
     body {
         font-size: 2.2em;
@@ -55,7 +32,32 @@
         margin: 1.7em;
     }
 }
-@media screen and (min-width: 1441px) and (max-width: 2561px) {} @media screen and (max-width: 991px) {
+@media screen and (max-width: 1080px) {
+    .menu-len p {
+        font-size: 18px;
+        padding-top: 31px;
+        padding-left: 25px;
+    }
+    .contact-navsec p {
+        padding-top: 30px;
+    }
+    .contact-navsec a {
+        font-size: 17px;
+    }
+    .contact-navsec a i {
+        margin-right: 0;
+    }
+    .logo-len a {
+        font-size: 35px;
+    }
+    .logo {
+        left: 41.5%;
+        width: 175px;
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 991px) {
     .container {
         width: 100%;
     }
