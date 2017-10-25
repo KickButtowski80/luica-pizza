@@ -1,6 +1,33 @@
 <style>
     .container{
-        padding-top: 250px;
+        padding-top: 55px;
+    }
+    .box {
+      float: left;
+      width: 100%;
+      font-size: 1.4em;
+    }
+     .box .top { 
+      padding: 6px;
+      background-color: #66ff66;
+      color: black;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+    .box .bottom {
+      padding: 6px;
+      background-color: red;
+      color: black;
+      display: none;
+    }
+    
+    .box .top:hover {
+        background-color: #3c763d;
+    }
+    .box-nip{
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 10px;
     }
 </style>
    
@@ -9,10 +36,30 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Lunch#index</h1>
-<p>Find me in app/views/lunch/index.html.erb</p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, in aliquam illum voluptates odit impedit harum ipsum fugiat reiciendis minus. Repellendus, accusamus voluptatem reiciendis id dolore laudantium deleniti saepe. Dolore.
-
+            <h1 style="text-align:center; color: red;">Lunch</h1>
         </div>
+                <div class="box" id="topping-pizza">
+                  <% LunchMenuConfig.current_menu.each do |item,content| %> 
+                      <% content.each do |subject,detail| %>
+                        <div  class="top" style="text-align: left;">
+                            <span style=" display: inline-block;">
+                                <%= subject["name"] %>
+                            </span>
+                            <span style="float:right; color: red;">
+                               <%= number_to_currency(subject["price"]) %>
+                                <span style="color: gray;text-align:right;">v</span>
+                            </span> 
+                            <span>
+                            <%= tag(:br) %>
+                            </span>
+                         </div>   
+                         <% unless subject["ingredients"].nil?  %>
+                             <div class="bottom">
+                                <%= subject["ingredients"]%>
+                             </div>
+                         <%end%>
+                       <%end%>
+             <%end%>
+         </div>
     </div>
 </div>
