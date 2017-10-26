@@ -56,10 +56,10 @@ PIZZA OR CALZONE (pizza and Calzones are served with green salad and soft drink.
     - name: CHICKEN PESTO
       ingredients: Grilled chicken breast, fresh pesto, artichokes topped with diced tomato and mozzarella.
       price: 9.10
-    - name: INDIVIDUAL PIZZA (one topping)
+    - name: SINGLE PIZZA (1 topping)
       ingredients: With choice of one topping
       price: 6.95 
-    - name: INDIVIDUAL PIZZA (one topping with extrea topping)
+    - name: SINGLE PIZZA (2 toppings)
       ingredients: With choice of one topping with extra topping
       price: 7.50
       
@@ -108,7 +108,7 @@ GOURMET SANDWICHES (All sandwiches are served with salad and soft drink. You cho
     - name: VEGETARIAN SANDWICH
       ingredients: Fresh sliced avocados, sun-dried tomatoes, lettuce, tomatoes, alfalfa sprouts, provolone chesse, mayonnaise and dijon mustard.
       price: 8.75
-    - name: GRILLED CHICKEN AND AVOCADO
+    - name: GRILLED CHICKEN & AVOCADO
       ingredients: Grilled chicken breast, slices of avocado, lettuce, tomatoes, alfalfa sprouts, mayonnaise, dijon mustard and provolone chesse.
       price: 8.75
     - name: BBQ CHICKEN
