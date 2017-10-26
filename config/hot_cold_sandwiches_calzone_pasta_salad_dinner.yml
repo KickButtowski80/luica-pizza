@@ -1,0 +1,149 @@
+Hot & Cold Sandwiches(Choice of wheat, sourdough or Italian Roll):
+- name: Roast beef	
+  price: 7.50
+  ingredients: Slice of roast beef, mozzarella cheese,lettuce, tomatoes and mayonnaise
+- name: Pastrami	
+  price: 7.50
+  ingredients: Lean slices of pastrami, mozzarella cheese,pickles and mustard
+- name: Chicken Parmesan	
+  price: 7.50
+  ingredients: Chicken breast, melted mozzarella cheeseand Italian tomato sauce
+- name: Lucias Club	
+  price: 7.50
+  ingredients: Slice of turkey, ham and roast beef servedwith lettuce, tomatoes, mozzarella cheese,Italian dressing and mayonnaise
+- name: Chicken Club	
+  price: 7.50
+  ingredients: Breast of chicken, mozzarella cheese,lettuce, tomato and mayonnaise
+- name: Meatballs and Cheese	
+  price: 7.50
+  ingredients: Homemade meatballs, melted mozzarella cheese and Italian tomato sauce
+- name: Italian Sausage and Cheese	
+  price: 7.50
+  ingredients: Italian sausage links, melted mozzarella cheese and Italian tomato sauce
+- name: Eggplant	
+  price: 7.50
+  ingredients: Slices of delightfully breaded eggplant,mozzarella cheese and Italian tomato sauce
+- name: Ham And Cheese	
+  price: 7.50
+  ingredients: Slices of ham, mozzarella cheese, lettuce,tomatoes and mayonnaise
+- name: Hero	
+  price: 7.50
+  ingredients: Salami, Canadian bacon, pepperoni, mozzarella cheese, lettuce, tomatoes,mayonnaise and Italian dressing
+- name: Submarine (cold)	
+  price: 7.50
+  ingredients: Salami, ham, Canadian bacon, mozzarella cheese, lettuce, tomatoes, mayonnaise and Italian dressing
+- name: Turkey (cold)	
+  price: 7.50
+  ingredients: Slices of turkey, mozzarella cheese, lettuce, tomatoes, mayonnaise and Italian dressing
+- name: Tuna Sandwich	
+  price: 8.75
+  ingredients: White Albacore tuna blended with cucumber, fresh dill, celery, red and green onion and mayonnaise
+- name: Vegetarian Sandwich	
+  price: 8.75
+  ingredients: Fresh sliced avocados, sun-dried tomatoes, provolone cheese, alfalfa sprouts, lettuce, tomatoes, and mayonnaise
+- name: Grilled vegetarian Sandwich	
+  price: 8.75
+  ingredients: Grilled eggplant, zucchini, red onion,roasted peppers, fresh tomatoes,provolone cheese and mayonnaise
+- name: Grilled Chicken And Avocado	
+  price: 8.75
+  ingredients: Grilled Chicken breast, slices of avocado,lettuce, tomatoes, alfalfa sprouts, mayonnaise,dijon mustard and provolone cheese.
+- name: BBQ Chicken	
+  price: 8.75
+  ingredients: Grilled chicken breast, grilled red onions,cilantro, lettuce, tomatoes, provolone cheese and special BBQ sauce.
+- name: Chipotle Chicken	
+  price: 8.75
+  ingredients: Chicken breast, chipotle, mayonnaise,lettuce, melted mozzarella cheese, and tomatoes
+#---------------------------------------------------------------------
+Calzone:
+- name: Create your own calzone
+  ingredients: up to 4 toppings
+  price: 9.75
+#------------------------------------------------------------------
+
+Pasta (SERVED WITH GARLIC BREAD):
+
+- name: Spaghetti	
+  price: 9.00
+  ingredients:  Marinara sauce and mozzarella cheese with choice of fresh mushrooms,
+- name: Lasagna (meat)	
+  price: 10.25  
+  ingredients:  Marinara sauce and mozzarella cheese with choice of fresh mushrooms
+- name: Ravioli (beef Or CHEESE)	
+  price: 10.25 
+  ingredients:  Marinara sauce and mozzarella cheese with choice of fresh mushrooms 
+- name: Ravioli (SPINACH)	
+  price: 10.25 
+  ingredients:  Marinara sauce and mozzarella cheese with choice of fresh mushrooms
+- name: Tortellini Primavera	
+  price: 10.25  
+  ingredients:  Cheese tortellini with choice of cream sauce, or tomato sauce, mozzarella cheese and fresh vegetables
+- name: Chicken Parmesan	
+  price: 10.25
+  ingredients:  Breast of chicken on a bed of fettuccini with homemade tomato sauce, topped with mozzarella cheese
+- name: Eggplant Parmesan	
+  price: 10.25
+  ingredients:  Breaded eggplant prepared in our delicious marinara sauce with mozzarella cheese on fettuccini
+- name: CHICKEN Fettuccini Alfredo	
+  price: 11.00
+  ingredients:  Fettuccini pasta in a white cream sauce parmesan cheese
+- name: Angel Hair Pomodoro	
+  price: 10.25
+  ingredients:  Fresh roma tomato, basil, garlic, mushrooms, parmesan cheese, white wine and olive oil
+- name: Garlic Shrimp Pasta	
+  price: 12.50
+  ingredients:  With tomato, olive oil, touch of cream, fresh garlic tossed with fettuccini
+- name: Cilantro Chicken	
+  price: 11.00
+  ingredients:  Fettuccini with lime, marinated chicken, red onion,  sweet red peppers, jalapeños in cilantro cream sauce
+- name: Chicken spinach penne	
+  price: 11.00
+  ingredients:  Chicken breast, fresh spinach, mushrooms, artichoke,  fresh garlic, parmesan and tomato sauce
+- name: Cajun Chicken Chipotle	
+  price: 11.00
+  ingredients:  Chicken breast marinated in cajun vinaigrette, sautéed with sweet red peppers, red onions, fresh garlic,tossed with chipotle chili, cream sauce and penne topped with fresh tomatoes and cilantro.
+#---------------------------------------------------------------------------------
+Salads:
+- name: Caesar Salad	
+  price: 7.95
+  ingredients: With our caesar dressing, romaine, garlic croutons, parmesan cheese
+- name: Caesar Salad w/ chicken add 	
+  price: 2.15
+  ingredients: With our caesar dressing, romaine, garlic croutons, parmesan cheese, and chicken added.
+- name: Millano Chicken Salad	
+  price: 10.50
+  ingredients: Marinated chicken breast, blend of mixed green and baby lettuce, roasted peppers,penne pasta, covered with fresh tomato, basil vinaigrette and parmesan cheese
+- name: Tuna Salad	
+  price: 10.50
+  ingredients: Scoop of albacore tuna on a bed of mixed greens
+- name: Avocado Salad	
+  price: 9.75
+  ingredients: Fresh sliced avocado, feta cheese, kalamata olives and tomatoes on a bed of mixed greens
+- name: Greek Salad with chicken	
+  price: 10.50
+  ingredients: Blend of mixed greens and baby lettuce,roma tomatoes, feta cheese, red onions, greek olives, cucumbers, pepperoncini w/ choice of Italian dressing or balsamic vinaigrette
+- name: BBQ chicken SALAD	
+  price: 10.50
+  ingredients: Marinated chicken glazes with B.B.Q. sauce,black beans, tomatoes, cheese, tortilla chips,Cbed of greens with B.B.Q. dressing
+- name: Caprese	
+  price: 8.50
+  ingredients:  Fresh mozzarella with slice tomato, fresh basil,blend of baby lettuce with balsamic vinaigrette.
+
+- name: Tossed Green Salad (Small)
+  price:	3.95 
+  ingredients: Lettuce, tomatoes, carrots, black olives and mozzarella cheese
+- name: Tossed Green Salad (Large)
+  price:	5.95 
+  ingredients: Lettuce, tomatoes, carrots, black olives and mozzarella cheese  
+- name: Antipasto Salad	(Small)
+  price: 5.75	 
+  ingredients: With Salami, ham, pepperoni,mozzarella cheese, black olives,tomatoes and pepperoncini
+- name: Antipasto Salad	(Large)
+  price: 9.25	 
+  ingredients: With Salami, ham, pepperoni,mozzarella cheese, black olives,tomatoes and pepperoncini
+- name: Tossed Chicken Green Salad (Small)	
+  price: 5.75
+  ingredients: Breast of chicken with black olives, lettuce, tomatoes, red onion,mozzarella cheese and pepperoncini
+- name: Tossed Chicken Green Salad (Large)	
+  price: 9.25
+  ingredients: Breast of chicken with black olives, lettuce, tomatoes, red onion,mozzarella cheese and pepperoncini
+

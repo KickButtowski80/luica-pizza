@@ -1,0 +1,80 @@
+Pizza:
+
+- name: Mozzarella Cheese
+  price:
+        - 11.95
+        - 14.95
+        - 17.95
+  ingredients: none        
+- name: Toppings (Regular)
+  price:
+        - 2.00
+        - 2.50
+        - 3.00
+  ingredients: none         
+- name: Lucia’s combination special
+  price:
+        - 17.50
+        - 21.50
+        - 25.50
+  ingredients: none Pepperoni, Italian sausage, mushrooms, onions,black olives and bell peppers
+- name: VEGETARIAN SPECIAL	
+  price:
+        - 17.00
+        - 21.00
+        - 25.00
+  ingredients: Mushrooms, olives, bell peppers, fresh tomatoes and onions
+- name: All Meat Special	
+  price:
+        - 17.50
+        - 21.50
+        - 25.50
+  ingredients: Pepperoni, salami, sausage and ham
+- name: Hawaiian Special	
+  price:
+        - 16.00
+        - 20.00
+        - 24.00
+  ingredients: Canadian bacon and pineapples
+- name: B.B.Q Chicken	
+  price:
+        - 19.55
+        - 24.45
+        - 29.45
+  ingredients: Char grilled chicken, red onion,cilantro our B.B.Q. sauceand tomato sauce
+- name: Chicken Pesto	
+  price:
+        - 19.55
+        - 24.45
+        - 29.45
+  ingredients: Chicken breast, fresh pesto,artichoke hearts topped with diced tomato
+- name: Roma Tomato	
+  price:
+        - 16.00
+        - 20.00
+        - 25.50
+  ingredients: Slices of roma tomato,roasted garlic and basil
+- name: Mediterranean	
+  price:
+        - 19.55
+        - 24.45
+        - 29.45
+  ingredients: Grilled marinated eggplant, artichoke hearts, hearts of palm,sun-dried tomato, fresh basil,parmesan cheese and our tomato sauce
+- name: Grilled Vegetables	
+  price:
+        - 19.55
+        - 24.45
+        - 29.45
+  ingredients: Grilled eggplant, zucchini, bell peppers, red onions with roasted garlic, fresh basil and roma tomato
+- name: Chicken Spinach	
+  price:
+        - 19.55
+        - 24.45
+        - 29.45
+  ingredients: Chicken breast, fresh mushrooms, artichoke heart, fresh spinach, tomato sauce and mozzarella
+- name: Western Chicken	
+  price:
+        - 19.55
+        - 24.45
+        - 29.45
+  ingredients: Chicken breast, cilantro, fresh tomatoes, jalapeños, fresh avocados and mozzarella cheese

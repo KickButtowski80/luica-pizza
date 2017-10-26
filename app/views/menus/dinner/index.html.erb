@@ -1,18 +1,86 @@
-<style>
-    .container{
-        padding-top: 250px;
-    }
-</style>
-   
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>Dinner#index</h1>
-<p>Find me in app/views/dinner/index.html.erb</p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, in aliquam illum voluptates odit impedit harum ipsum fugiat reiciendis minus. Repellendus, accusamus voluptatem reiciendis id dolore laudantium deleniti saepe. Dolore.
-
+<div class="jumbotron" style=" margin:20px; margin-top:15%; border-radius:5px">
+   <div class="row">
+       <h2>Dinner Menu</h2>
+   </div>
+  <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <h1 class="text-center"   style="color:red;"> PIZZA</h1>
+                <div class ="text-center" style="border: 1px solid red; color: #fff; background: red;">
+                    <h2>BUY 1 GET 1 FREE </h2>
+                </div>
+                <div class="top">
+                    <h2 style="color: green; margin-top: 25px; padding: 25px;border: 1px solid red; background:red;">TOPPINGS: 
+                     <span style="color: gray;float:right;">v</span>
+                    </h2>
+                </div>
+                <div class="bottom" style="display:none;">
+                    <p style="color: red; font-weight: 700">
+                        Pepperoni, Italian Sausage, Chicken, Mushrooms, Onions, Bell Peppers, 
+                        Candian Bacon, Black Olives, Meatballs, Ham, Pineapple, Jalapenos,
+                        Salami, Anchovies, Fresh Tomatoes, Fresh Garlic, Roasted Garlic, 
+                        Cilantro, Grilled Eggplant, Grilled Zucchini, Red Onion, Roasted Peppers
+                        , Capers, Sun-dried Tomatoes, Feta Cheese, Artichoke Hearts
+                    </p>
+                </div>
+                
+                 <div style="text-align: right; color:green; font-weight: 500;margin-bottom: 19px;">
+                   SMALL(2)&nbsp;&nbsp;MEDIUM(2)&nbsp;&nbsp;LARGE(2)
+                </div>
+                <div class="box" id="topping-pizza">
+                      <% PizzaDinnerConfig.current_menu.each do |item,content| %> 
+                          <% content.each do |subject,detail| %>
+                            <div  class="top" style="text-align: left;">
+                                <span style=" display: inline-block;">
+                                    <%= subject["name"] %>
+                                </span>
+                                <span style="float:right; color: red;">
+                                    <% subject["price"].each do |p| %>
+                                        <%= p %>&nbsp;&nbsp; 
+                                    <%end%>  
+                                    <span style="color: gray;text-align:right;">v</span>
+                                </span> 
+                                <span>
+                                <%= tag(:br) %>
+                                </span>
+                             </div>   
+                             <% unless subject["ingredients"].nil?  %>
+                                 <div class="bottom">
+                                    <%= subject["ingredients"]%>
+                                 </div>
+                             <%end%>
+                           <%end%>
+                     <%end%>
+                 </div>
         </div>
-    </div>
-</div>
+  </div>
+   <div class="row"> 
+        <form id='form' class="col-xs-12 col-md-12 box" >            
+              <% HotColdSandwichesCalzonePastaSaladDinnerConfig.current_menu.each do |item,content| %> 
+                <div class="top">
+                    <%=item%>
+                    <span class="pull-right" style="color: gray;">v</span>
+                </div>
+                <div class="bottom" >
+                     <div class="well">
+                  <% content.each do |subject,detail| %>
+                   <input type="checkbox" name="menItems" onclick="myFunction(this)" 
+            value="<%= subject["name"] %>&nbsp;&nbsp;&nbsp;&nbsp;<%= subject["price"] %>">
+                        <span class="box-nip">
+                            <%= subject["name"] %>
+                        </span>
+                        <br>
+                        <% unless subject["ingredients"].nil?  %>
+                            <%= subject["ingredients"]%>
+                            <%= tag(:br) %>
+                        <%end%>
+                        <%= number_to_currency(subject["price"]) %><br>
+                   <%end%>
+                   </div>
+                </div>
+                 <%end%>  
+          </form>  
+     </div>
+
+ </div> 
+
+ 

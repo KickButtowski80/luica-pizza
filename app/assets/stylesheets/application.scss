@@ -392,7 +392,33 @@ font-size: 30px;
    padding-top: 2vh;
 }
 
- 
+  .box {
+  float: left;
+  width: 100%;
+  font-size: 1.1em;
+}
+ .box .top { 
+  padding: 6px;
+  background-color: #66ff66;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.box .bottom {
+  padding: 6px;
+  background-color: red;
+  color: black;
+  display: none;
+}
+
+.box .top:hover {
+    background-color: #3c763d;
+}
+.box-nip{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
     /* media qeruies*/
 
 @media screen and (min-width: 2560px) {
