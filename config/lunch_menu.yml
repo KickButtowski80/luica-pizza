@@ -167,13 +167,13 @@ HOT SANDWICHES(are served with salad or soup and soft drink.):
 COLD SANDWICHES (are served with salad or soup and soft drink.):
 
     - name: submarine    
-      ingredients: ~
+      ingredients: large onion, thinly sliced, loaf soft Italian bread,red wine vinegar,extra-virgin olive oil,Kosher salt and freshly ground pepper,deli-sliced provolone cheese,deli-sliced Genoa salami,deli-sliced boiled ham.
       price: 7.75
     - name: Turkey          
-      ingredients: ~
+      ingredients: slices whole wheat bread, toasted (optional), mayonnaise, Dijon-style prepared mustard, smoked turkey breast, guacamole.
       price: 7.75
     - name: Avocado and cheese     
-      ingredients: ~
+      ingredients: Avocado and cheese
       price: 7.75      
       
       
