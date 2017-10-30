@@ -58,11 +58,6 @@ a:hover {
     border: 1px solid #FFF;
     border-width: thick;
 }
-// .logo-len a {
-//     font-family: 'Oleo Script Swash Caps', cursive;
-//     font-size: 45px;
-//     color: #FFF;
-// }
 .contact-navsec {
     width: 15%;
     float: left;
@@ -185,7 +180,6 @@ ul.callbacks_tabs {
     transform: rotate(-45deg);
 }
 /* Menu */
-
 .menu-wrap {
     position: fixed;
     z-index: 1001;
@@ -290,7 +284,6 @@ section {
 /* Close Button */
 /* Menu */
 /* slogan css */
-
 #vid {
     object-fit: cover;
     width: 100%;
@@ -345,7 +338,6 @@ section {
     padding-left: 20px;
 }
 /*menu partial css*/
-
 #menu .navbar-pos {
     background: #fff;
     width: 100%;
@@ -353,9 +345,6 @@ section {
     z-index: 1001;
     top: 0px;
 }
-/*#menu-logo {
-font-size: 30px;
-}*/
 /*foot partial css*/
 
 #foodMenu {
@@ -387,12 +376,10 @@ font-size: 30px;
     font-size: 20px;
     opacity: .8;
 }
-
 #contact h1{
    padding-top: 2vh;
 }
-
-  .box {
+.box {
   float: left;
   width: 100%;
   font-size: 1.1em;
@@ -411,7 +398,6 @@ font-size: 30px;
   color: black;
   display: none;
 }
-
 .box .top:hover {
     background-color: #3c763d;
 }
@@ -420,8 +406,7 @@ font-size: 30px;
     padding: 5px;
     border-radius: 10px;
 }
-    /* media qeruies*/
-
+/* media qeruies*/
 @media screen and (min-width: 2560px) {
     body {
         font-size: 2.2em;
@@ -477,7 +462,6 @@ font-size: 30px;
         height: 175px;
     }
 }
-
 @media screen and (max-width: 991px) {
     .container {
         width: 100%;
