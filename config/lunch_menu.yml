@@ -28,7 +28,7 @@ SALADS ( All salads are served with garlic bread):
       price: 8.75      
 #------------------------------------------------------------------------------
 
-PIZZA OR CALZONE (pizza and Calzones are served with green salad and soft drink. All calzones include ricotta cheese):
+PIZZA OR CALZONE (are served with green salad and soft drink. All calzones include ricotta cheese):
     - name: DELUXE
       ingredients: Pepperoni, Italian sausage, mushrooms, onions, bell peppers, olives, tomato suace and mozzarella.
       price: 8.75
